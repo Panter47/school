@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1763678371 source:c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\frame_ethernet\eth_frame.c
+	"eth_frame.h"
+	<string.h>
+
+1764257352 c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\frame_ethernet\eth_frame.h
+	<stdint.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1764257729 source:c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\frame_ethernet\tables.c
+	<stdint.h>
+	"tables.h"
+	<stddef.h>
+
+1763482480 c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\frame_ethernet\tables.h
+	<stdint.h>
+
+1764257429 source:c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\frame_ethernet\main.c
+	<stdio.h>
+	<stdint.h>
+	"eth_frame.h"
+

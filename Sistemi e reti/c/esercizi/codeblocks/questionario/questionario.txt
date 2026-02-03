@@ -1,0 +1,21 @@
+quanti bit ha un indirizzo IPv4?
+32
+64
+128
+16
+A
+
+qual e' la funzione del protocollo ARP?
+trovare gli indirizzi IP di tutti gli host della subnet
+tradurre indirizzi ip in indirizzi MAC
+trovare la classe di un IP
+l'indirizzo IP corrisppondente ad un indirizzo MAC
+B
+
+Quali delle seguenti non sono key-word del c?
+void
+return
+int
+printf
+D
+

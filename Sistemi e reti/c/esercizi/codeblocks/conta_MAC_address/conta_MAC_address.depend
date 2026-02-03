@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1756976815 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\conta_mac_address\main.c
+	<stdio.h>
+	<stdlib.h>
+

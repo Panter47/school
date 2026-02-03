@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1764318093 source:c:\users\skpante\documents\randip\randip.c
+
+1764782089 source:c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\randip\main.c
+	<stdio.h>
+	<stdlib.h>
+	"randip.h"
+	<time.h>
+
+1764782089 c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\randip\randip.h
+
+1764782239 source:c:\users\tchen\documents\scuola\sistemi e reti\c\esercizi\codeblocks\randip\randip.c
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	"randip.h"
+

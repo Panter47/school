@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1757411601 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\questionario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1744382707 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\funz_ricorsive\funz_ricorsive.c
+
+1744382812 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\funz_ricorsive\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funz_ricorsive.h"
+	<time.h>
+
+1744382537 c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\funz_ricorsive\funz_ricorsive.h
+

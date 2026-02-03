@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1745937332 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\ip\main.c
+	<stdio.h>
+	<stdlib.h>
+	"myNetLib.h"
+
+1745936398 c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\ip\mynetlib.c
+	<string.h>
+	<stdio.h>
+	"myNetLib.h"
+
+1745937610 c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\ip\mynetlib.h
+
+1745941051 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\ip\mynetlib.c
+	<string.h>
+	<stdio.h>
+	"myNetLib.h"
+

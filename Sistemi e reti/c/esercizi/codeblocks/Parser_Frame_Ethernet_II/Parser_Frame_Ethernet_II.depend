@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1763047742 source:c:\users\tchen\documents\sistemi e reti\c\esercizi\codeblocks\parser_frame_ethernet_ii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1763022623 source:c:\users\skpante\desktop\parser_frame_ethernet_ii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
