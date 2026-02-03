@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730908627 source:c:\users\tchen\documents\codeblock\massimo 10 numeri\main.c
+	<stdio.h>
+	<stdlib.h>
+

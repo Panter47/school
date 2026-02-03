@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1734256008 source:c:\users\tchen\documents\informatica\codeblock\numeri primi gemelli\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

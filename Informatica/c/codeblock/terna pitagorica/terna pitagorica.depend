@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730055203 source:c:\users\tchen\documents\codeblock\terna pitagorica\main.c
+	<stdio.h>
+	<stdlib.h>
+

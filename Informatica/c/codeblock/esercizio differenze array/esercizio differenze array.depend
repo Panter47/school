@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1733503925 source:c:\users\tchen\documents\codeblock\esercizio differenze array\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
