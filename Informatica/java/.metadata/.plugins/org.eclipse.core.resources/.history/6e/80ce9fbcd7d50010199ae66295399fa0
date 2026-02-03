@@ -1,0 +1,7 @@
+public class Docente extends Dipendente {
+	
+	private int numOre;
+	private double stipendo;
+	
+
+}

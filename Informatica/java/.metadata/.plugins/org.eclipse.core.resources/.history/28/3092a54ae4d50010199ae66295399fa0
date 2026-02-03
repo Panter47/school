@@ -1,0 +1,10 @@
+import java.time.LocalDate;
+
+public class Docente extends Dipendente {
+	
+	private int numOre;
+	
+	
+	
+
+}

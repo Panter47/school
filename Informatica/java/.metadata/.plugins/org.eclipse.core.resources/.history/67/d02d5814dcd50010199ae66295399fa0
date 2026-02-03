@@ -1,0 +1,6 @@
+public class Impiegato extends {
+	private int livello;
+	private double stipendioBase;
+	
+	
+}

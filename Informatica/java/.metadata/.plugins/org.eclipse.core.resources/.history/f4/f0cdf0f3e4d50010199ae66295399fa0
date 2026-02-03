@@ -1,0 +1,15 @@
+import java.time.LocalDate;
+
+public class Impiegato extends Dipendente {
+	
+	private int livello;
+	private final int retribuzioneOraria=8;
+	public Impiegato(String nominativo, String sesso, LocalDate dataDiNascita, double stipendioBase,
+			double straordinario, int livello) {
+		super(nominativo, sesso, dataDiNascita, stipendioBase, straordinario);
+		this.livello = livello;
+	}
+	
+	
+
+}

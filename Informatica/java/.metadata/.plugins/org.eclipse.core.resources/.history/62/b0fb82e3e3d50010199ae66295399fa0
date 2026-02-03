@@ -1,0 +1,56 @@
+import java.time.LocalDate;
+
+public abstract class Dipendente {
+	
+	protected String nominativo;
+	protected String sesso;
+	protected LocalDate dataDiNascita;
+	protected double stipendioBase;
+	
+	public Dipendente(String nominativo, String sesso, LocalDate dataDiNascita, double stipendioBase) {
+		this.nominativo = nominativo;
+		this.sesso = sesso;
+		this.dataDiNascita = dataDiNascita;
+		this.stipendioBase=stipendioBase;
+	}
+
+	public double getStipendioBase() {
+		return stipendioBase;
+	}
+
+	public void setStipendioBase(double stipendioBase) {
+		this.stipendioBase = stipendioBase;
+	}
+
+	public String getNominativo() {
+		return nominativo;
+	}
+
+	public void setNominativo(String nominativo) {
+		this.nominativo = nominativo;
+	}
+
+	public String getSesso() {
+		return sesso;
+	}
+
+	public void setSesso(String sesso) {
+		this.sesso = sesso;
+	}
+
+	public LocalDate getDataDiNascita() {
+		return dataDiNascita;
+	}
+
+	public void setDataDiNascita(LocalDate dataDiNascita) {
+		this.dataDiNascita = dataDiNascita;
+	}
+
+	@Override
+	public String toString() {
+		return "nominativo=" + nominativo + "  sesso=" + sesso + "  dataDiNascita=" + dataDiNascita + " ";
+	}
+	
+	public abstract double stipendioMensile();
+	
+}

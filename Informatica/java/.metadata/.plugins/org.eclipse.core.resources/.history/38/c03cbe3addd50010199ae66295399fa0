@@ -1,0 +1,36 @@
+import java.time.LocalDate;
+
+public class Impiegato extends Dipendente {
+	private int livello;
+	private double stipendioBase;
+	
+	public Impiegato(String nominativo, String sesso, LocalDate dataDiNascita, int livello, double stipendioBase) {
+		super(nominativo, sesso, dataDiNascita);
+		this.livello = livello;
+		this.stipendioBase = stipendioBase;
+	}
+
+	public int getLivello() {
+		return livello;
+	}
+
+	public void setLivello(int livello) {
+		this.livello = livello;
+	}
+
+	public double getStipendioBase() {
+		return stipendioBase;
+	}
+
+	public void setStipendioBase(double stipendioBase) {
+		this.stipendioBase = stipendioBase;
+	}
+
+	@Override
+	public String toString() {
+		return "livello=" + livello + "  stipendioBase=" + stipendioBase + "  toString()=" + super.toString() + " ";
+	}
+	
+	double 
+	
+}

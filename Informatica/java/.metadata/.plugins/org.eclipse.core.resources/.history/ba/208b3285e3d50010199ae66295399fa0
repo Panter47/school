@@ -1,0 +1,31 @@
+import java.time.LocalDate;
+
+public class Docente extends Dipendente {
+	
+	private int numOre;
+	private double stipendioBase;
+	public Docente(String nominativo, String sesso, LocalDate dataDiNascita, int numOre, double stipendioBase) {
+		super(nominativo, sesso, dataDiNascita);
+		this.numOre = numOre;
+		this.stipendioBase = stipendioBase;
+	}
+	public int getNumOre() {
+		return numOre;
+	}
+	public void setNumOre(int numOre) {
+		this.numOre = numOre;
+	}
+	public double getstipendioBase() {
+		return stipendioBase;
+	}
+	public void setstipendioBase(double stipendioBase) {
+		this.stipendioBase = stipendioBase;
+	}
+	@Override
+	public String toString() {
+		return "numOre=" + numOre + "  stipendioBase=" + stipendioBase + "  toString()=" + super.toString() + " ";
+	}
+	
+	
+
+}

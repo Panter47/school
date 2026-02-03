@@ -1,0 +1,27 @@
+import java.time.LocalDate;
+
+public class Docente extends Dipendente {
+	
+	private int numOre;
+	private double stipendo;
+	public Docente(String nominativo, String sesso, LocalDate dataDiNascita, int numOre, double stipendo) {
+		super(nominativo, sesso, dataDiNascita);
+		this.numOre = numOre;
+		this.stipendo = stipendo;
+	}
+	public int getNumOre() {
+		return numOre;
+	}
+	public void setNumOre(int numOre) {
+		this.numOre = numOre;
+	}
+	public double getStipendo() {
+		return stipendo;
+	}
+	public void setStipendo(double stipendo) {
+		this.stipendo = stipendo;
+	}
+	
+	
+
+}
