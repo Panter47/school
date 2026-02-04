@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film consigliati</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: radial-gradient(circle, rgba(20,20,20,1) 20%, rgba(100,10,10,1) 50%, rgba(10,10,50,1) 80%); 
+            color: rgb(220, 220, 220); 
+            text-align: center;
+        }
+
+        header {
+            background: radial-gradient(circle, rgba(20,20,20,1) 20%, rgba(100,10,10,1) 50%, rgba(10,10,50,1) 80%); 
+            color: rgb(220, 220, 220); 
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .cards-container, .registri {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: rgba(34, 34, 34, 0.85);
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: left; /* Allinea il testo a sinistra */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .card p {
+            margin-bottom: 15px; /* Aggiunge spazio tra i paragrafi */
+            line-height: 1.6; /* Migliora la leggibilità */
+            font-size: 14px; /* Regola la dimensione del font */
+        }
+
+        .card h2, .card h3 {
+            text-align: center; /* Centra i titoli */
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgba(30, 30, 30, 0.9);
+        }
+
+        table, th, td {
+            border: 1px solid white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center; /* Allinea il testo al centro orizzontalmente */
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-size: 16px;
+            color: rgba(220, 220, 220, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Film consigliati</h1>
+    </header>
+
+    <section class="cards-container">
+        <div class="card">
+            <img src="interstelar.jpg" alt="Interstellar">
+            <h2>Interstellar</h2>
+            <p>Interstellar è un film di fantascienza diretto da Christopher Nolan, ambientato in un futuro in cui la Terra è inabitabile. Un gruppo di astronauti, guidato da Cooper (Matthew McConaughey), cerca un nuovo pianeta per salvare l'umanità. Il film esplora temi come il tempo, la relatività e l'amore, ed è noto per la sua fusione di scienza e immaginazione. Ha ricevuto consensi per la regia e la colonna sonora di Hans Zimmer.</p>
+            <p>Curiosità: Il fisico teorico Kip Thorne, consulente scientifico del film, ha creato una simulazione del buco nero Gargantua che è stata così precisa che è stata usata anche in ricerche scientifiche reali per comprendere meglio i buchi neri.</p>
+        </div>
+        <div class="card">
+            <img src="DEXTER1.jpg"  alt="Dexter">
+            <h2>Dexter</h2>
+            <p>Dexter è una serie TV che racconta la vita di Dexter Morgan, un analista di sangue per la polizia di Miami che, segretamente, è anche un serial killer. Cresciuto dal padre adottivo che lo ha indirizzato a uccidere solo criminali, Dexter lotta per mantenere nascosta la sua doppia vita. La serie esplora temi di giustizia, moralità e identità, con un protagonista complesso. Andata in onda dal 2006 al 2013, ha avuto un seguito nel 2021, Dexter: New Blood. Il suo tono oscuro e le tematiche psicologiche l'hanno resa molto popolare.</p>
+            <p>Curiosità: Michael C. Hall, che interpreta Dexter, ha rivelato che per prepararsi al ruolo, ha studiato la psicologia dei serial killer e le tecniche di investigazione, ma si è anche ispirato a personaggi di film noir per creare il suo Dexter più complesso.</p>
+        </div>
+        <div class="card">
+            <img src="YOU.jpg" alt="YOU">
+            <h2>YOU</h2>
+            <p>YOU è una serie TV che segue Joe Goldberg, un libraio ossessionato dalle donne di cui si innamora, che diventa un perseguitatore usando la tecnologia. La trama esplora temi di amore distorto e moralità, con Joe che giustifica le sue azioni. La serie è nota per il suo protagonista inquietante e la suspense.</p>
+            <p>Curiosità: YOU è basato sul romanzo omonimo di Caroline Kepnes, che ha anche scritto un seguito, Hidden Bodies, che è stato adattato per la seconda stagione della serie.</p>
+        </div>
+        <div class="card">
+            <img src="spiderman.jpg" alt="Spider-Man">
+            <h2>Spider-Man</h2>
+            <p>Spider-Man (2002), diretto da Sam Raimi, racconta le origini di Peter Parker (Tobey Maguire), un ragazzo timido che, dopo essere stato morso da un ragno radioattivo, acquisisce superpoteri. Con l'aiuto delle sue nuove abilità, diventa Spider-Man per combattere il crimine, ma deve anche affrontare sfide personali, come la perdita di zio Ben e il conflitto con il malvagio Green Goblin (Willem Dafoe). Il film esplora temi di responsabilità e sacrificio, ed è stato un grande successo, lanciando l'universo cinematografico di Spider-Man.</p>
+            <p>Curiosità: Tobey Maguire, per prepararsi al ruolo, ha dovuto affrontare un intenso regime di allenamento fisico. Ha guadagnato circa 7 kg di muscoli per interpretare Spider-Man, ma ha anche dovuto imparare a fare le acrobazie per le scene d'azione, alcune delle quali sono state realizzate senza l'uso di effetti speciali, ma con veri stunt.</p>
+        </div>
+    </section>
+
+    <section class="registri">
+        <div class="card">
+            <img src="regista1.jpg" alt="Regista Interstellar">
+            <h3>Christopher Nolan</h3>
+            <p>Regista di Interstellar</p>
+        </div>
+        <div class="card">
+            <img src="Steve Shill.jpg" alt="Regista di Dexter">
+            <h3>Steve Shill</h3>
+            <p>Regista di Dexter</p>
+        </div>
+        <div class="card">
+            <img src="regista_you.jpg" alt="Regista di YOU">
+            <h3>Sera Gamble</h3>
+            <p>Regista di YOU</p>
+        </div>
+        <div class="card">
+            <img src="sam raimi.jpg" alt="Sam Raimi">
+            <h3>Sam Raimi</h3>
+            <p>Regista di Spider-Man</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tabella dei film/Serie TV</h2>
+        <table>
+            <tr>
+                <th>Film/Serie TV</th>
+                <th>Ruolo</th>
+                <th>Attore</th>
+                <th>Premi</th>
+            </tr>
+            <tr>
+                <td>Interstellar</td>
+                <td>Protagonista</td>
+                <td>Matthew McConaughey</td>
+                <td>Oscar</td>
+            </tr>
+            <tr>
+                <td>Dexter</td>
+                <td>Protagonista</td>
+                <td>Michael C. Hall</td>
+                <td>Golden Globe</td>
+            </tr>
+            <tr>
+                <td>YOU</td>
+                <td>Protagonista</td>
+                <td>Penn Badgley</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Spider-Man</td>
+                <td>Protagonista</td>
+                <td>Tobey Maguire</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </section>
+
+    <div class="signature">
+        <p>Induwara Jayatunga</p>
+    </div>
+</body>
+</html>
