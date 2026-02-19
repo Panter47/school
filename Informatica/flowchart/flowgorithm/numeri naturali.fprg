@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="numeri naturali"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-04 12:00:45 "/>
+        <attribute name="created" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTA0OyIxMTo0MTozNSAiOzI0MzE="/>
+        <attribute name="edited" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTA0OyIxMjowMDo0NSAiOzE7MjUzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, i" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=numero">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

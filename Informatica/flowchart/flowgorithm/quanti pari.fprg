@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="quanti pari"/>
+        <attribute name="authors" value="tchen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 06:08:27 "/>
+        <attribute name="created" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMTAtMDc7IjA0OjAzOjEwICI7MjgxNA=="/>
+        <attribute name="edited" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMTAtMDc7IjA2OjA4OjI3ICI7MTsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, num, q" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <assign variable="q" expression="0"/>
+            <while expression="i&lt;=8">
+                <input variable="num"/>
+                <assign variable="i" expression="i+1"/>
+                <if expression="num%2==0">
+                    <then>
+                        <assign variable="q" expression="q+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="q" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

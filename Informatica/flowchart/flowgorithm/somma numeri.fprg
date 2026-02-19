@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="somma numeri"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-06 01:54:48 "/>
+        <attribute name="created" value="c2twYW50ZTtMQUI1VElDLTAyNjsyMDI0LTEwLTA1OyIwODo1MjozNSAiOzI2MzE="/>
+        <attribute name="edited" value="c2twYW50ZTtMQUI1VElDLTAyNjsyMDI0LTEwLTA1OyIwOTowMjo1MSAiOzE7MjczMw=="/>
+        <attribute name="edited" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMTAtMDY7IjAxOjU0OjQ4ICI7MjsyOTM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, i, somma" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="somma" expression="1"/>
+            <while expression="i&lt;numero">
+                <assign variable="i" expression="i+1"/>
+                <assign variable="somma" expression="i+somma"/>
+            </while>
+            <output expression="somma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

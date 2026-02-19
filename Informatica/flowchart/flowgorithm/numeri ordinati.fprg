@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="numeri ordinati"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 04:27:37 "/>
+        <attribute name="created" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTAyOyIxMjo1MToxMiAiOzI0MjY="/>
+        <attribute name="edited" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTAyOyIxMjo1OToxNCAiOzE7MjU0NA=="/>
+        <attribute name="edited" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMTAtMDI7IjA0OjI3OjM3ICI7MzsyOTM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Real" array="False" size=""/>
+            <output expression="&quot;scrivi primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;scrivi secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;scrivi il terzo numero&quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num1==num2 and num1==num3">
+                <then>
+                    <output expression="&quot;i tre numeri sono uguali&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1&lt;num2 and num2&lt;num3 or num1&lt;num3 and num3&lt;num2">
+                        <then>
+                            <if expression="num1&lt;num2 and num2&lt;num3">
+                                <then>
+                                    <output expression="num1" newline="True"/>
+                                    <output expression="num2" newline="True"/>
+                                    <output expression="num3" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="num1" newline="True"/>
+                                    <output expression="num3" newline="True"/>
+                                    <output expression="num2" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="num2&lt;num1 and num1&lt;num3 or num2&lt;num3 and num3&lt;num1">
+                                <then>
+                                    <if expression="num2&lt;num1 and num1&lt;num3">
+                                        <then>
+                                            <output expression="num2" newline="True"/>
+                                            <output expression="num1" newline="True"/>
+                                            <output expression="num3" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="num2" newline="True"/>
+                                            <output expression="num3" newline="True"/>
+                                            <output expression="num1" newline="True"/>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <if expression="num3&lt;num1 and num1&lt;num2">
+                                        <then>
+                                            <output expression="num3" newline="True"/>
+                                            <output expression="num1" newline="True"/>
+                                            <output expression="num2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="num3" newline="True"/>
+                                            <output expression="num2" newline="True"/>
+                                            <output expression="num1" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cambio valuta euro dollaro statunitense"/>
+        <attribute name="authors" value="tchen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:03:51 "/>
+        <attribute name="created" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMDktMjQ7IjA5OjU1OjU3ICI7Mjg0NA=="/>
+        <attribute name="edited" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMDktMjQ7IjEwOjAzOjUxICI7MTsyOTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="euro" type="Real" array="False" size=""/>
+            <declare name="dollarostatunitense" type="Real" array="False" size=""/>
+            <input variable="euro"/>
+            <assign variable="dollarostatunitense" expression="euro*1.12"/>
+            <output expression="dollarostatunitense" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calcola massimo"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-28 08:50:47 "/>
+        <attribute name="created" value="c2twYW50ZTtMQUI1VElDLTAwMTsyMDI0LTA5LTI4OyIwODozOTo0OSAiOzI2NDc="/>
+        <attribute name="edited" value="c2twYW50ZTtMQUI1VElDLTAwMTsyMDI0LTA5LTI4OyIwODo1MDo0NyAiOzE7Mjc0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <output expression="&quot;scrivi primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;scrivi secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;scrivi terzo numero&quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num1&lt;num2">
+                <then>
+                    <if expression="num2&lt;num3">
+                        <then>
+                            <output expression="&quot;il terzo numero &#232; il pi&#249; grande&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;il secondo numero &#232; il pi&#249; grande&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num1&lt;num3">
+                        <then>
+                            <output expression="&quot;il terzo numero &#232; il pi&#249; grande&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;il primo numero &#232; il pi&#249; grande&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

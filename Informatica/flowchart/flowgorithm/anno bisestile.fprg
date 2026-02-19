@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="anno bisestile"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 12:40:42 "/>
+        <attribute name="created" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTAyOyIxMjoxNzoxNCAiOzI0MzA="/>
+        <attribute name="edited" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTEwLTAyOyIxMjo0MDo0MiAiOzE7MjUzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anno" type="Integer" array="False" size=""/>
+            <input variable="anno"/>
+            <if expression="anno%4==0 and anno%400==0 or anno%100!=0">
+                <then>
+                    <output expression="&quot;l'anno &#232; bisestile&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;l'anno non &#232; bisestile&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

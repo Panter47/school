@@ -1,0 +1,98 @@
+dimmi qual è la risposta giusta 
+
+il principio di Thevenin afferma che una rete elettrica lineare, comunque complessa, vista da due terminali, è equivalente:
+
+A. ad un generatore ideale di corrente con una resistenza in parallelo.
+C. ad un generatore ideale di tensione con una resistenza in parallelo.
+B. ad un generatore ideale di tensione con una resistenza in serie.
+D. ad un generatore ideale di corrente con una resistenza in serie 
+
+La risposta giusta è:
+
+**B. ad un generatore ideale di tensione con una resistenza in serie.**
+
+Il teorema di Thevenin afferma che una rete elettrica complessa può essere sostituita da un generatore ideale di tensione (la "tensione di Thevenin") in serie con una resistenza (la "resistenza di Thevenin"), vista dai terminali della rete.
+
+il principio di sovrapposizione degli effetti afferma che in un circuito lineare:
+
+A. in presenta di più generatori di corrente è possibile studiare l'effetto di ognuno in modo separato, dopo aver annullato i generatori di tensione. il risultato complessivo è dato dalla somma algebrica degli effetti di ciascun generatore di corrente.
+B. in presenta di più generatori è possibile studiare l'effetto dei generatori di tensione in modo separato dai generatori di corrente, dopo aver annullato tutti i generatori tranne uno. il risultato complessivo è dato dalla somma algebrica degli effetti di ciascun generatore di tensione.
+C.in presenta di più generatori è possibile studiare l'effetto di ognuno in modo separato, dopo aver annullato gli altri generatori. il risultato complessivo è dato dalla somma algebrica degli effetti di ciascun generatore.
+D. in presenza di più generatori di tensione è possibile studiare l'effetto di ognuno in modo separato, dopo aver annullato i generatori di corrente. Il risultato complessivo è dato dalla somma algebrica degli effetti di ciascun generatore di tensione.
+
+La risposta giusta è:
+
+**C. in presenza di più generatori è possibile studiare l'effetto di ognuno in modo separato, dopo aver annullato gli altri generatori. Il risultato complessivo è dato dalla somma algebrica degli effetti di ciascun generatore.**
+
+Il principio di sovrapposizione degli effetti afferma che, in un circuito lineare, l'effetto complessivo di più generatori (sia di tensione che di corrente) può essere trovato sommando gli effetti di ogni generatore, uno per volta, dopo aver "annullato" (cioè sostituito con il loro equivalente nullo) gli altri generatori.
+
+
+un generatore ideale di tensione:
+A. presenta una resistenza interna grande rispetto a quella del carico.
+B. eroga un corrente trascurabile.
+C. presenta una resistenza interna infinita.
+D. fornisce una tensione costante anche al variare del carico.
+
+La risposta giusta è:
+
+**D. fornisce una tensione costante anche al variare del carico.**
+
+Un generatore ideale di tensione mantiene la tensione costante tra i suoi terminali, indipendentemente dal carico a cui è collegato. Questo comportamento ideale è quello che lo distingue da un generatore reale, che potrebbe subire variazioni di tensione al variare del carico.
+
+
+per risolvere un circuito utilizzando i principi di Kirchhoff:
+
+A. si individua il numero delle maglie, pari al numero delle tensioni incognite. si scrivono le leggi alle maglie, utilizzando tutte le maglie tranne una. Poi si scrivono le leggi ai nodi, fino ad ottenere un sistema con un numero di equazioni pari al numero delle maglie
+ B. si individua il numero dei rami, pari al numero delle correnti incognite. Si scrivono le leggi ai nodi, utilizzando tutti i nodi tranne uno. poi si scrivono le leggi alle maglie, fino ad ottenere un sistema con un numero di equazioni pari al numero delle correnti incognite.
+C. si individua il numero delle maglie, pari al numero delle tensioni incognite. Si scrivono le leggi ai nodi, utilizzando tutti i nodi tranne uno. Poi si scrivono le leggi alle maglie. fino ad ottenere un sistema con un numero di equazioni pari al numero delle tensioni incognite.
+D. si individuano il numero dei rami, pari al numero delle correnti incognite. Si scrivono le leggi alle maglie, utilizzando tutte le maglie tranne una. Poi si scrivono le leggi ai nodi, fino ad ottenere un sistema con un numero di equazioni pari al numero delle maglie
+
+La risposta giusta è:
+
+**B. si individua il numero dei rami, pari al numero delle correnti incognite. Si scrivono le leggi ai nodi, utilizzando tutti i nodi tranne uno. Poi si scrivono le leggi alle maglie, fino ad ottenere un sistema con un numero di equazioni pari al numero delle correnti incognite.**
+
+Nel metodo di risoluzione di un circuito con le leggi di Kirchhoff (sia delle correnti che delle tensioni), generalmente si scrivono le leggi di Kirchhoff dei nodi (KCL) e delle maglie (KVL). Si individuano le correnti incognite (nei rami) e le tensioni incognite (nelle maglie), poi si formano un sistema di equazioni che può essere risolto. La risposta B descrive correttamente il processo.
+
+
+un generatore ideale di tensione:
+A. impone una corrente costante anche al variare del carico.
+B. non può erogare corrente.
+C. presenta una resistenza interna nulla.
+D. presenta una resistenza interna grande rispetto a quella del carico 
+
+La risposta giusta è:
+
+**C. presenta una resistenza interna nulla.**
+
+Un generatore ideale di tensione ha una resistenza interna pari a zero, il che significa che può mantenere la stessa tensione tra i suoi terminali indipendentemente dalla corrente che vi scorre, senza alcuna caduta di tensione interna.
+
+
+applicando il principio di thevenin ad una rete elettrica lineare, comunque complessa, vista da due terminali, possiamo affermare che:
+A. la f.e.m. del generatore equivalente è pari alla tensione a vuoto presenta ai due terminali considerati, mentre la resistenza in parallelo è quella vista dai terminali stessi dopo aver annullato i generatori presenti.
+B. la f.e.m del generatore equivalente è pari alla corrente di cortocircuito dei terminali considerati, mentre la resistenza in parallelo è quella vista dai terminali stessi dopo aver annullato i generatori presenti.
+C. la f.e.m del generatore equivalente è pari alla corrente di cortocircuito dei due terminali considerati, mentre la resistenza in serie è quella vista dai terminali stessi dopo aver annullato i generatori presenti.
+D. la f.e.m del generatore equivalente è pari alla tensione a vuoto presente ai due terminali considerati , mentre la resistenza in serie è quella vista dai terminali stessi dopo aver annullato i generatori presenti. 
+
+La risposta corretta è:
+
+**D. la f.e.m del generatore equivalente è pari alla tensione a vuoto presente ai due terminali considerati, mentre la resistenza in serie è quella vista dai terminali stessi dopo aver annullato i generatori presenti.**
+
+Secondo il teorema di Thevenin, la tensione a vuoto ai terminali (ovvero la tensione misurata quando non è collegato alcun carico) corrisponde alla f.e.m. del generatore equivalente. La resistenza equivalente (di Thevenin) è quella vista dai terminali dopo aver "annullato" i generatori: i generatori di tensione vengono cortocircuitati e i generatori di corrente vengono aperti. Questa resistenza è in serie con il generatore equivalente.
+
+
+per applicare il principio di sovrapposizione degli effetti ad un circuito lineare bisogna annullare id volta in volta i generatori non considerati. per fare ciò occorre:
+A. aprire(scollegare) i generatori di tensione e i generatori di corrente.
+B. cortocircuitare i generatori di tensione e i generatori di corrente
+C. cortocircuitare i generatori di tensione ed aprire (scollegare) i generatori di corrente
+D. cortocircuitare i generatori di corrente ed aprire (scollegare) i generatori di tensione
+
+La risposta giusta è:
+
+**C. cortocircuitare i generatori di tensione ed aprire (scollegare) i generatori di corrente.**
+
+Nel principio di sovrapposizione, per annullare un generatore:
+
+- **Cortocircuitare** i **generatori di tensione**, poiché un generatore di tensione ideale, quando annullato, diventa un cortocircuito.
+- **Aprire** (scollegare) i **generatori di corrente**, poiché un generatore di corrente ideale, quando annullato, diventa un circuito aperto.
+
+In questo modo, si può studiare l'effetto di ogni generatore separatamente e sommare algebricamente i contributi per ottenere il risultato complessivo.

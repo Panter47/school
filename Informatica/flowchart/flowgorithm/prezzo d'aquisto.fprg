@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="prezzo d'aquisto"/>
+        <attribute name="authors" value="skpante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 04:19:35 "/>
+        <attribute name="created" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTA5LTI3OyIxMTo1MDoxNSAiOzI0NDI="/>
+        <attribute name="edited" value="c2twYW50ZTtJTkZPLTAwMTsyMDI0LTA5LTI3OyIxMjowMToxOSAiOzE7MjU1MQ=="/>
+        <attribute name="edited" value="dGNoZW47REVTS1RPUC1SUEtWT0I2OzIwMjQtMDktMjc7IjA0OjE5OjM1ICI7MTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;se si superano i 100&#8364; si ottiene uno sconto del 5%&quot;" newline="True"/>
+            <declare name="prezzounitario, quantit&#224;prodotta, totale, sconto, pagamento" type="Integer" array="False" size=""/>
+            <output expression="&quot;prezzo del prodotto&quot;" newline="True"/>
+            <input variable="prezzounitario"/>
+            <output expression="&quot;quantit&#224; del prodotto preso&quot;" newline="True"/>
+            <input variable="quantit&#224;prodotta"/>
+            <assign variable="totale" expression="prezzounitario*quantit&#224;prodotta"/>
+            <if expression="totale&gt;=100">
+                <then>
+                    <output expression="&quot;sconto del 5%&quot;" newline="True"/>
+                    <assign variable="sconto" expression="(totale/100*5)"/>
+                    <assign variable="pagamento" expression="totale-sconto"/>
+                    <output expression="pagamento" newline="True"/>
+                </then>
+                <else>
+                    <output expression="totale" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

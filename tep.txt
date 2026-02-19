@@ -1,0 +1,145 @@
+linea 1
+7:00 parma mia 
+7:41 park nord 
+7:46 park nord 
+8:27 parma mia 
+
+1 ora e 27 per fare tutte le tappe della linea 
+
+linea 2 
+6:14 largo 8 marzo 
+6:33 stazione ferroviaria 
+6:33 stazione ferroviaria 
+6:52 largo 8 marzo
+
+38 minuti per fare tutte le tappe della linea 
+
+linea 3
+6:14 san lazzaro 
+6:40 crocetta 
+6:43 crocetta 
+7:08 san lazzaro 
+
+54 minuti per fare tutte le tappe della linea 
+
+linea 4 
+6:16 via parigi 
+6:44 via mordacci 
+6:48 via mordacci 
+7:14 via parigi 
+
+58 minuti per fare tutte le tappe della linea 
+
+linea 5 
+6:20 via orazio 
+6:55 via chiavari 
+7:00 via chiavari 
+7:35 via orazio 
+
+1 ora e 15 minuti per fare tutte le tappe della linea 
+
+linea 6
+6:26 felino 
+7:22 baganzola 
+7:28 baganzola 
+8:42 fornovo 
+8:55 fornovo 
+9:01 aeroporto 
+9:18 aeroporto 
+10:08 felino 
+
+3 ore e 42 minuti per fare tutte le tappe della linea 
+
+linea 7 
+7:47 università campus 
+8:49 colorno 
+9:03 colorno 
+10:07 univertià campus 
+
+2 ore e 20 minuti per fare tutte le tappe della linea 
+
+linea 8 
+6:25 via de chirico
+7:05 via palermo 
+7:10 via palermo 
+7:50 via savinio 
+7:55 via savinio 
+8:35 via palermo 
+8:40 via palermo 
+9:20 via de chirico 
+
+2 ore e 55 minuti per fare tutte le tappe della linea 
+
+linea 9 
+6:41 marore 
+7:11 piazzale sant'ilario 
+7:23 piazzale sant'ilario
+7:55 marore 
+8:01 marore 
+8:35 quartiere artigianale crocetta 
+8:39 quartiere artigianale crocetta 
+9:15 marore 
+
+2 ore e 34 minuti per fare tutte le tappe della linea 
+
+linea 11 
+non calcolabile perché un autobus non fa tutti i capolinea 
+
+linea 12 
+6:24 eia 
+7:05 argini
+7:12 argini 
+7:46 fognano
+7:58 fognano 
+9:08 langhirano 
+9:23 langhirano 
+10:31 fognano 
+10:43 fognano 
+11:51 stadirano/lesignano bagni 
+11:54 stadirano/lesignano bagni
+13:05 roncopascolo 
+13:09 roncopascolo 
+14:15 panocchia 
+14:17 panocchia 
+15:20 eia
+
+8 ore e 56 per fare tutte le tappe della linea 
+
+linea 13 
+6:10 via lanfranchi 
+7:03 corcagnano 
+7:13 corcagnano 
+8:05 via lanfranchi 
+
+1 ore e 55 minuti per fare tutte le tappe della linea 
+
+linea 15 
+6:25 via jacobs 
+6:57 moletolo 
+7:04 moletolo 
+7:35 via jacobs 
+
+1 ora e 10 minuti per fare tutte le tappe dell linea 
+
+linea 21 
+non calcolabile perché un autobus non fa tutti i capolinea 
+ 
+linea 23
+6:37 park est 
+7:20 vicofertile 
+7:22 vicofertile 
+8:04 park est 
+8:07 park est
+9:03 fontanellato 
+9:24 fontanellato 
+10:23 san prospero 
+10:46 san prospero 
+11:48 noceto
+11:58 noceto 
+13:02 sant'ilario d'enza 
+13:11 sant'ilario d'enza 
+14:28 san secondo parmense 
+14:30 san secondo parmense 
+15:34 park est  
+
+8 ore 57 per fare tutte le tappe della linea 
