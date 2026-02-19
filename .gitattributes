@@ -1,1 +1,3 @@
 .i linguist-detectable=false
+
+# Ignore all files in the "docs" directory
