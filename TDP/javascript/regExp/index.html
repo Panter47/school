@@ -1,0 +1,147 @@
+!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <title>Form Sviluppo Software</title>
+
+    <style>
+    
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(236, 160, 18);
+            margin-top: 8%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+    
+        .buttons {
+            width: 98%;
+            height: 70px;
+            background-color: rgb(46, 46, 46);
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        .buttoncontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            gap: 20px;
+            background-color: rgb(189, 127, 46);
+            width: 25%;
+            padding: 40px;
+            border-radius: 1cm;
+            border-style: solid; 
+        }
+    
+        .testo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .inputs {
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        .role {
+            display: flex;
+            flex-direction: row;
+        }
+        .role label {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>Sviluppo Software</h1>
+
+        <div class="testo">Nome</div>
+
+        <input type="text" class="inputs" id="name">
+
+        <div class="testo"></div>
+
+        <div class="testo">email</div>
+
+        <input type="text" class="inputs" id="email">
+
+        <div class="testo"></div>
+
+        <div class="testo">telefono</div>
+
+        <input type="number" class="inputs" id="telefono">   
+
+        <div class="testo"></div>
+
+        <div class="testo">Budget</div>
+
+        <input type="number" class="inputs" id="budget">
+
+        <div class="testo">Servizi richiesti</div>
+
+        <div class="role">
+            <label><input type="checkbox" class="service" data-rate="20" id="s_html"> HTML (€20/ora)</label>
+            <input type="number" class="inputs hours" id="h_html" placeholder="ore" min="0" disabled>
+        </div>
+
+        <div class="role">
+            <label><input type="checkbox" class="service" data-rate="25" id="s_php"> PHP (€25/ora)</label>
+            <input type="number" class="inputs hours" id="h_php" placeholder="ore" min="0" disabled>
+        </div>
+
+        <div class="role">
+            <label><input type="checkbox" class="service" data-rate="30" id="s_asp"> ASP (€30/ora)</label>
+            <input type="number" class="inputs hours" id="h_asp" placeholder="ore" min="0" disabled>
+        </div>
+
+        <div class="role">
+            <label><input type="checkbox" class="service" data-rate="35" id="s_java"> Java (€35/ora)</label>
+            <input type="number" class="inputs hours" id="h_java" placeholder="ore" min="0" disabled>
+        </div>
+
+        <div class="role">
+            <label><input type="checkbox" class="service" data-rate="40" id="s_cpp"> C++ (€40/ora)</label>
+            <input type="number" class="inputs hours" id="h_cpp" placeholder="ore" min="0" disabled>
+        </div>
+
+        <div class="testo">Totale</div>
+        <div id="total" class="testo">€0.00</div>
+
+        <div class="buttoncontainer">
+            <button class="buttons" id="logInButton" onclick="validation(); calculateBudget();">calcolo budget</button>
+        </div>
+
+        <script src="./app.js"></script>
+
+    </div>
+
+</body>
+</html>

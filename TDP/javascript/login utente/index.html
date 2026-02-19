@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <title>Login utente</title>
+
+    <style>
+    
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(236, 160, 18);
+            margin-top: 8%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+    
+        .buttons {
+            width: 98%;
+            height: 70px;
+            background-color: rgb(46, 46, 46);
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        .buttoncontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            gap: 20px;
+            background-color: rgb(189, 127, 46);
+            width: 25%;
+            padding: 40px;
+            border-radius: 1cm;
+            border-style: solid; 
+        }
+    
+        .testo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .inputs {
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        .role {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="role">
+
+        <h1>Ruolo: </h1>
+        <h1 id="userRole"></h1>
+
+    </div>
+
+    <div class="container">
+
+        <h1>Login</h1>
+
+        <div class="testo">Username</div>
+
+        <input type="text" class="inputs" id="username">
+
+        <div class="testo">Password</div>
+
+        <input type="password" class="inputs" id="password">
+
+        <div class="buttoncontainer">
+            <button class="buttons" id="logInButton" onclick="auth()">Login</button>
+        </div>
+
+        <script src="./app.js"></script>
+
+    </div>
+
+</body>
+</html>

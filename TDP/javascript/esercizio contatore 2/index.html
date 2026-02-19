@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatore</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Georgia', serif;
+        }
+
+        .cards-container {
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            width: 450px;
+            padding: 40px 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #222;
+            margin-bottom: 25px;
+        }
+
+        input {
+            text-align: center;
+            width: 80%;
+            font-size: 1.5rem;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        .label {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #444;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section class="cards-container">
+        <h1>Contatore</h1>
+
+        <label class="label" for="numero">Valore attuale:</label>
+        <input type="text" id="numero" value="0">
+
+        <label class="label" for="incremento">Valore di incremento (X):</label>
+        <input type="text" id="incremento" value="1">
+
+        <div class="buttons">
+            <button id="decrementa">- Decrementa</button>
+            <button id="incrementa">+ Incrementa</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

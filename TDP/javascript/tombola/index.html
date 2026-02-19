@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombola</title>
+
+    <style>
+    
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 131, 131);
+            margin-top: 4%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        td, tr {
+            border: 1px solid red;
+            table-layout: fixed;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            color: black;
+            background-color: white;
+
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgb(226, 226, 226);
+            width: 75%;
+            padding: 40px;
+            border-radius: 1cm;
+            border-style: solid; 
+            align-items: center;
+        }
+    
+        .areaselector {
+            width: 98%;
+            height: 30px;
+        }
+
+        .cardrows {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottino {
+            height: 70px;
+            background-color: rgb(46, 46, 46);
+            color:white;
+            border-radius: 10px;
+            font-size: large;
+        }
+
+        .colorato {
+            background-color: rgb(141, 40, 40);
+        }
+
+        .buttonBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            width: 200  px;
+            height: auto;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    
+    <h1>TOMBOLA</h1>
+    
+    <div class="container">
+        <div class="cardrows" id="cards"></div>  
+        <div class="buttonBox">
+            <button class="bottino" id="refresh" onclick="location.reload()">Reset</button>
+        </div>
+        <div class="buttonBox">
+            <button class="bottino" id="generate">Estrai Numero</button>
+            <div class="cardrows" id="numbers"></div>
+        </div>
+
+        <script src="./app.js"></script>
+    </div>
+
+</body>
+</html>

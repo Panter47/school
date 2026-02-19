@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizionario</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .hidden {
+        display: none;
+    }
+</style>
+<body>
+
+    <h1>Traduzione da inglese a italiano: </h1>
+    
+
+    <div class="testo">inserire la parola in italiano</div>
+    <input type="text" class="inputs" id="word">
+    <button class="buttons" id="traduzione" onclick="dizio()">traduzione</button>
+    <button class="buttons" id="tabella" onclick="show()">traduzioni disponibili</button>
+    <button class="buttons" id="aggiungitradu" onclick="addtradu()">aggiungi traduzione</button>
+    <div id="nuoviCampi" class="hidden">
+        <div class="testo">Inserisci la parola in italiano</div>
+        <input type="text" class="inputs" id="parola">
+        <div class="testo">Inserisci la parola in inglese</div>
+        <input type="text" class="inputs" id="parola2">
+        <button onclick="salvaTraduzione()">Salva traduzione</button>
+    </div>
+
+    <p id="tradu"></p>
+    <pre id="tabel"></pre>
+    <p id="riuscita"></p>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
