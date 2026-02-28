@@ -7,3 +7,5 @@ sottomultipli.png
 .gitignore
 telecomunicazioni .txt
 file batch.bat
+*.ini
+*.pyc
