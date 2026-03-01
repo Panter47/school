@@ -8,6 +8,7 @@ let dati = {
     password: "",
     telefono: "",
     sitoWeb: "",
+    ente:"",
     preferenza: "",
     data: ""
 };
@@ -17,6 +18,7 @@ function inviaForm() {
     dati.password = document.getElementById("password").value;
     dati.telefono = document.getElementById("telefono").value;
     dati.sitoWeb = document.getElementById("sitoWeb").value;
+    dati.ente = document.getElementById("ente").value;
     dati.preferenza = document.getElementById("preferenza").value;
     dati.data = document.getElementById("data").value;
 
@@ -57,12 +59,13 @@ function inviaForm() {
 
 function riepilogo() {
     const dati = JSON.parse(localStorage.getItem("dati"));
-    document.getElementById("nome").textContent = "Nome: " + dati.nome;
-    document.getElementById("password").textContent = "Password: " + "*".repeat(dati.password.length);
-    document.getElementById("telefono").textContent = "Telefono: " + dati.telefono;
-    document.getElementById("sitoWeb").textContent = "Sito Web: " + dati.sitoWeb;
-    document.getElementById("preferenza").textContent = "Preferenza: " + dati.preferenza;
-    document.getElementById("data").textContent = "Data: " + dati.data;
+    document.getElementById("nome").innerText = "Nome: " + dati.nome;
+    document.getElementById("password").innerText = "Password: " + "*".repeat(dati.password.length);
+    document.getElementById("telefono").innerText = "Telefono: " + dati.telefono;
+    document.getElementById("sitoWeb").innerText = "Sito Web: " + dati.sitoWeb;
+    document.getElementById("ente").innerText = "ente dell'azienda: " + dati.ente;
+    document.getElementById("preferenza").innerText = "Preferenza: " + dati.preferenza;
+    document.getElementById("data").innerText = "Data: " + dati.data;
 
     let prestazione = new Date(dati.data);
     prestazione.setDate(prestazione.getDate() + 7);
@@ -74,5 +77,5 @@ function riepilogo() {
         prestazione.setDate(prestazione.getDate() + 1);
     }
 
-    document.getElementById("dataPrestazione").textContent = "Data Prestazione: " + prestazione.toLocaleDateString("it-IT", {year:"numeric",month:"numeric",day:"numeric"}) 
+    document.getElementById("dataPrestazione").innerText = "Data Prestazione: " + prestazione.toLocaleDateString("it-IT", {year:"numeric",month:"numeric",day:"numeric"}) 
 }
