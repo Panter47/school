@@ -11,13 +11,6 @@ public class Spell {
         this.tipo = tipo;
     }
 
-
-
-
-
-
-
-
     //getter setter
     public String getNome() {
         return nome;
@@ -51,14 +44,5 @@ public class Spell {
         this.tipo = tipo;
     }
 
-
-
-
-
-
-
-
-
-    
 
 }
