@@ -52,10 +52,26 @@ public abstract class Mago {
     private void cast(Spell s, Mago target){
         if(target.isAlive() && this.canCast(s)){
             this.setMana(this.getMana() - s.manaCost);
-            
+            if(s.getTipo().equalsIgnoreCase("attacco"))
+                target.takeDamage(s.getValoreBase());
+            else
+                this.heal(s.getValoreBase());
         }
     }
 
+    private void rest(){
+        this.mana += 5;
+        if (this.mana > this.manaMax)
+            this.mana = this.manaMax;
+    }   
+
+    private void regenMana(int quantita){
+        this.mana += quantita;
+        if (this.mana > this.manaMax)
+            this.mana = this.manaMax;
+    }
+
+    
     //gettes setter
     public String getNome() {
         return nome;
