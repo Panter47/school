@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <title>quiz</title>
+
+    <style>
+    
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(236, 160, 18);
+            margin-top: 8%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+    
+        .buttons {
+            width: 98%;
+            height: 70px;
+            background-color: rgb(46, 46, 46);
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        .buttoncontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            gap: 20px;
+            background-color: rgb(189, 127, 46);
+            width: 25%;
+            padding: 40px;
+            border-radius: 1cm;
+            border-style: solid; 
+        }
+    
+        .testo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .inputs {
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        .role {
+            display: flex;
+            flex-direction: row;
+        }
+        .err {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="role">
+
+        <h1>quiz</h1>
+        <h1 id="userRole"></h1>
+
+    </div>
+
+    <div class="container">
+
+        <h1>Inserire i propri dati</h1>
+        
+        <div class="testo">nome: </div>
+        <div class="err" id="errNome"></div>
+        <input type="text" class="inputs" id="nome">
+
+        <div class="testo">cognome: </div>
+        <div class="err" id="errCognome"></div>
+        <input type="text" class="inputs" id="cognome">
+
+        <div class="testo">Classe: </div>
+        <div class="err" id="errClasse"></div>
+        <input type="text" class="inputs" id="classe">
+
+        <h1>Quiz</h1>
+        <div class="testo">Qual è la capitale della Francia?</div>
+        <div class="err" id="errPrimaDomanda"></div>
+        <select class="inputs" id="primaDomanda">
+            <option value="vuoto">--selezionare un'opzione--</option>
+            <option value="sbagliata">Berlino</option>
+            <option value="sbagliato">Madrid</option>
+            <option value="giusto">Parigi</option>
+            <option value="sbagliato">Roma</option>
+        </select>
+
+        <div class="testo">Quale pianeta è riconosciuto come pianeta rosso?</div>
+        <div class="err" id="errSecondaDomanda"></div>
+        <select class="inputs" id="secondaDomanda">
+            <option value="vuoto">--selezionare un opzione--</option>
+            <option value="giusto">Marte</option>
+            <option value="sbagliato">Venere</option>
+            <option value="sbagliato">Giove</option>
+            <option value="sbagliato">Saturno</option>
+        </select>
+
+        <div class="testo">Quanto fa 5 x 6 ?</div>
+        <div class="err" id="errTerzaDomanda"></div>
+        <select class="inputs" id="terzaDomanda">
+            <option value="vuoto">--selezionare un'opzione--</option>
+            <option value="sbagliato">25</option>
+            <option value="giusto">30</option>
+            <option value="sbagliato">35</option>
+            <option value="sbagliato">40</option>
+        </select>
+        <div class="buttoncontainer">
+            <button class="buttons" id="logInButton" onclick="inviaQuiz()">invio</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+
+</body>
+</html>
