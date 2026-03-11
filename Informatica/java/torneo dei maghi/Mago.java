@@ -1,4 +1,6 @@
-public abstract class Mago {
+import java.util.List;
+
+public class Mago {
     
     private String nome;
     private String alieas;
@@ -25,47 +27,49 @@ public abstract class Mago {
         this.spellBook = spellBook;
     }
 
-    private boolean isAlive(){
+    public boolean isAlive(){
         if (this.hp > 0)
             return true;
         return false;
     }
 
-    private void takeDamage(int danno){
+    public void takeDamage(int danno){
         this.hp -= danno;
         if (this.hp < 0)
             this.hp = 0;
     }
 
-    private void heal(int quantita){
+    public void heal(int quantita){
         this.hp += quantita;
         if (this.hp > this.hpMax)
             this.hp = this.hpMax;
     }
 
-    private boolean canCast(Spell s){
-        if (this.mana >= s.manaCost)
+    public boolean canCast(Spell s){
+        if (this.mana >= s.getCostoMana())
             return true;
         return false;
     }
 
-    private void cast(Spell s, Mago target){
+    public void cast(Spell s, Mago target){
         if(target.isAlive() && this.canCast(s)){
-            this.setMana(this.getMana() - s.manaCost);
-            if(s.getTipo().equalsIgnoreCase("attacco"))
-                target.takeDamage(s.getValoreBase());
-            else
+            this.setMana(this.getMana() - s.getCostoMana());
+            if(s.getTipo().equalsIgnoreCase("attacco")){
+                int danno = s.getValoreBase() + this.potenzaMagica - target.getDifesa();
+                if (danno < 1) danno = 1;
+                target.takeDamage(danno);
+            } else
                 this.heal(s.getValoreBase());
         }
     }
 
-    private void rest(){
+    public void rest(){
         this.mana += 5;
         if (this.mana > this.manaMax)
             this.mana = this.manaMax;
     }   
 
-    private void regenMana(int quantita){
+    public void regenMana(int quantita){
         this.mana += quantita;
         if (this.mana > this.manaMax)
             this.mana = this.manaMax;
@@ -153,5 +157,4 @@ public abstract class Mago {
         this.spellBook = spellBook;
     }
 
-    
 }
