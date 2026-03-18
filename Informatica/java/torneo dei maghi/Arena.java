@@ -13,7 +13,9 @@ public class Arena {
         this.turno = 0;
     }
 
-
+    /**
+     * Avvia una partita
+     */
     public void playMach(){
         while (getAliveMago().size() > 1){
             turno++;
@@ -21,6 +23,9 @@ public class Arena {
         }
     }
 
+    /**
+     * Gioca un turno
+     */
     public void playTurn(){
         List<Mago> maghiAttivi = getAliveMago();
         ordinaPerVelocita(maghiAttivi);
@@ -32,7 +37,11 @@ public class Arena {
         }
     }
 
-    private void ordinaPerVelocita(List<Mago> lista){
+    /**
+     * Ordina i maghi in base alla loro velocità
+     * @param lista la lista di maghi da ordinare
+     */
+    public void ordinaPerVelocita(List<Mago> lista){
         for (int i = 0; i < lista.size() - 1; i++){
             for (int j = 0; j < lista.size() - 1 - i; j++){
                 if (lista.get(j).getVelocità() < lista.get(j + 1).getVelocità()){
@@ -44,6 +53,11 @@ public class Arena {
         }
     }
 
+
+    /**
+     * Restituisce una lista dei maghi ancora vivi
+     * @return la lista dei maghi ancora vivi
+     */
     public List<Mago> getAliveMago(){
         List<Mago> vivi = new ArrayList<>();
         for (Mago m : maghi)
@@ -51,6 +65,10 @@ public class Arena {
         return vivi;
     }
 
+    /**
+     * Restituisce il vincitore della partita, se c'è un solo mago vivo. Altrimenti, restituisce null.
+     * @return il vincitore della partita, o null se non c'è un vincitore definitivo
+     */
     public Mago getVincitore(){
         List<Mago> vivi = getAliveMago();
         if (vivi.size() == 1) return vivi.get(0);

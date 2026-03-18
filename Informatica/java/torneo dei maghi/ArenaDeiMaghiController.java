@@ -10,7 +10,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -120,6 +119,7 @@ public class ArenaDeiMaghiController {
         return l;
     }
 
+    //aggiungo un mago alla lista dei maghi
     @FXML
     void btnActionEventAdd(ActionEvent event){
         List<Spell> spellBook = new ArrayList<>();

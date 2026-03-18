@@ -26,31 +26,52 @@ public class Mago {
         this.velocità = velocità;
         this.spellBook = spellBook;
     }
-
+    /**
+     * Controlla se il mago è ancora vivo
+     * @return true se hp > 0, altrimenti false
+     */
     public boolean isAlive(){
         if (this.hp > 0)
             return true;
         return false;
     }
 
+    /**
+     * Applica il danno al mago, riducendo i suoi hp. Se gli hp scendono sotto 0, vengono portati a 0.
+     * @param danno la quantità di danno da infliggere al mago
+     */
     public void takeDamage(int danno){
         this.hp -= danno;
         if (this.hp < 0)
             this.hp = 0;
     }
 
+    /**
+     * Cura il mago, aumentando i suoi hp. Se gli hp superano hpMax, vengono portati a hpMax.
+     * @param quantita la quantità di hp da curare al mago
+     */
     public void heal(int quantita){
         this.hp += quantita;
         if (this.hp > this.hpMax)
             this.hp = this.hpMax;
     }
 
+    /**
+     * Controlla se il mago ha abbastanza mana per lanciare una determinata spell
+     * @param s la spell da lanciare
+     * @return true se il mago ha abbastanza mana, altrimenti false
+     */
     public boolean canCast(Spell s){
         if (this.mana >= s.getCostoMana())
             return true;
         return false;
     }
 
+    /**
+     * Lancia una spell su un bersaglio. Se la spell è di tipo "attacco", infligge danno al bersaglio. Se la spell è di tipo "cura", cura se stesso.
+     * @param s la spell da lanciare
+     * @param target il bersaglio della spell
+     */
     public void cast(Spell s, Mago target){
         if(target.isAlive() && this.canCast(s)){
             this.setMana(this.getMana() - s.getCostoMana());
@@ -63,12 +84,18 @@ public class Mago {
         }
     }
 
+    /**
+     * Riposa il mago, rigenerando mana.
+     */
     public void rest(){
         this.mana += 5;
         if (this.mana > this.manaMax)
             this.mana = this.manaMax;
     }   
 
+    /**
+     * Rigenera mana al mago. Se il mana supera manaMax, viene portato a manaMax.
+     */
     public void regenMana(int quantita){
         this.mana += quantita;
         if (this.mana > this.manaMax)
