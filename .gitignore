@@ -9,3 +9,4 @@ telecomunicazioni .txt
 file batch.bat
 *.ini
 *.pyc
+*.ini.bak
