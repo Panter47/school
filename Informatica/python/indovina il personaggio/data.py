@@ -3,16 +3,24 @@
 
 # Lista di personaggi famosi
 dati_personaggi = [
-    {"nome": "Albert Einstein",     "professione": "scienziato", "nazionalita": "tedesca",    "epoca": "XX secolo",   "genere": "maschio"},
-    {"nome": "Leonardo da Vinci",   "professione": "artista",    "nazionalita": "italiana",   "epoca": "XV secolo",   "genere": "maschio"},
-    {"nome": "Marie Curie",         "professione": "scienziato", "nazionalita": "polacca",    "epoca": "XX secolo",   "genere": "femmina"},
-    {"nome": "Napoleone Bonaparte", "professione": "politico",   "nazionalita": "francese",   "epoca": "XIX secolo",  "genere": "maschio"},
-    {"nome": "Frida Kahlo",         "professione": "artista",    "nazionalita": "messicana",  "epoca": "XX secolo",   "genere": "femmina"},
-    {"nome": "Isaac Newton",        "professione": "scienziato", "nazionalita": "britannica", "epoca": "XVII secolo", "genere": "maschio"},
-    {"nome": "Cleopatra",           "professione": "politico",   "nazionalita": "egiziana",   "epoca": "I secolo",    "genere": "femmina"},
-    {"nome": "Nikola Tesla",        "professione": "scienziato", "nazionalita": "serba",      "epoca": "XIX secolo",  "genere": "maschio"},
-    {"nome": "Coco Chanel",         "professione": "artista",    "nazionalita": "francese",   "epoca": "XX secolo",   "genere": "femmina"},
-    {"nome": "Galileo Galilei",     "professione": "scienziato", "nazionalita": "italiana",   "epoca": "XVI secolo",  "genere": "maschio"},
+    {"nome": "Albert Einstein",       "professione": "scienziato", "nazionalita": "tedesca",    "epoca": "XX secolo",   "genere": "maschio"},
+    {"nome": "Leonardo da Vinci",     "professione": "artista",    "nazionalita": "italiana",   "epoca": "XV secolo",   "genere": "maschio"},
+    {"nome": "Marie Curie",           "professione": "scienziato", "nazionalita": "polacca",    "epoca": "XX secolo",   "genere": "femmina"},
+    {"nome": "Napoleone Bonaparte",   "professione": "politico",   "nazionalita": "francese",   "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Frida Kahlo",           "professione": "artista",    "nazionalita": "messicana",  "epoca": "XX secolo",   "genere": "femmina"},
+    {"nome": "Isaac Newton",          "professione": "scienziato", "nazionalita": "britannica", "epoca": "XVII secolo", "genere": "maschio"},
+    {"nome": "Cleopatra",             "professione": "politico",   "nazionalita": "egiziana",   "epoca": "I secolo",    "genere": "femmina"},
+    {"nome": "Nikola Tesla",          "professione": "scienziato", "nazionalita": "serba",      "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Coco Chanel",           "professione": "artista",    "nazionalita": "francese",   "epoca": "XX secolo",   "genere": "femmina"},
+    {"nome": "Galileo Galilei",       "professione": "scienziato", "nazionalita": "italiana",   "epoca": "XVI secolo",  "genere": "maschio"},
+    {"nome": "Charles Darwin",        "professione": "scienziato", "nazionalita": "britannica", "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Claude Monet",          "professione": "artista",    "nazionalita": "francese",   "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Otto von Bismarck",     "professione": "politico",   "nazionalita": "tedesca",    "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Florence Nightingale",  "professione": "scienziato", "nazionalita": "britannica", "epoca": "XIX secolo",  "genere": "femmina"},
+    {"nome": "Molière",               "professione": "artista",    "nazionalita": "francese",   "epoca": "XVII secolo", "genere": "maschio"},
+    {"nome": "Giuseppe Garibaldi",    "professione": "politico",   "nazionalita": "italiana",   "epoca": "XIX secolo",  "genere": "maschio"},
+    {"nome": "Marlene Dietrich",      "professione": "artista",    "nazionalita": "tedesca",    "epoca": "XX secolo",   "genere": "femmina"},
+    {"nome": "Alan Turing",           "professione": "scienziato", "nazionalita": "britannica", "epoca": "XX secolo",   "genere": "maschio"},
 ]
 
 # Lista di domande disponibili
