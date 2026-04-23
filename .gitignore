@@ -10,6 +10,5 @@ file batch.bat
 *.ini
 *.pyc
 *.ini.bak
-Informatica\Flutter\widget_state/
-Informatica\Flutter\widget_stateless/
-
+Informatica/Flutter/widget_state/
+Informatica/Flutter/widget_stateless/
