@@ -12,3 +12,5 @@ file batch.bat
 *.ini.bak
 Informatica/Flutter/widget_state/
 Informatica/Flutter/widget_stateless/
+Informatica/Flutter/flutter_prima/
+Informatica/Flutter/convertitore/
