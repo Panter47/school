@@ -56,19 +56,14 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter(int type) {
+  void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      if(type == 0){
-        _counter++;
-      }
-      else{
-        _counter--;
-      }
+      _counter++;
     });
   }
 
@@ -114,24 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            Row(
-              children: [
-                FloatingActionButton(
-                  onPressed: () => _incrementCounter(0),
-                  tooltip: 'Increment',
-                  child: const Icon(Icons.add),
-                ),
-                FloatingActionButton(
-                  onPressed: () => _incrementCounter(1),
-                  tooltip: 'Increment',
-                  child: const Icon(Icons.remove),
-                ),
-              ],
-            ),
           ],
         ),
       ),
-      
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
