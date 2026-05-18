@@ -8,7 +8,7 @@ RIGHT = 0
 class Snake:
     
     def __init__(self):
-        self.segment = []
+        self.head = []
         x = 0
         for i in range(3):
             tim = Turtle()
@@ -17,15 +17,15 @@ class Snake:
             tim.penup()
             tim.goto(x, 0)
             x -= 20
-            self.segment.append(tim)
-        self.direction = self.segment[0]
+            self.head.append(tim)
+        self.direction = self.head[0]
 
     def move(self):
-        for i in range(len(self.segment) - 1, 0, -1):
-            new_x = self.segment[i - 1].xcor()
-            new_y = self.segment[i - 1].ycor()
-            self.segment[i].goto(new_x, new_y)
-        self.segment[0].forward(20)              
+        for i in range(len(self.head) - 1, 0, -1):
+            new_x = self.head[i - 1].xcor()
+            new_y = self.head[i - 1].ycor()
+            self.head[i].goto(new_x, new_y)
+        self.head[0].forward(20)              
         
         
     def up(self):
