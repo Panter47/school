@@ -9,7 +9,7 @@ class PRIVATEIP:
 
 Ipp = [PRIVATEIP(10,0,8), PRIVATEIP(172,16,16), PRIVATEIP(192,168,24)]
 
-def DectoszBin(quale, lunghezza):
+def DectoszBin(quale, lunghezza): #Visualizza la subnetId in binario
     mask = 1 << (lunghezza - 1)
     risultato = []
     while mask:
