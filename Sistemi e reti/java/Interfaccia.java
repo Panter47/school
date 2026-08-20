@@ -51,5 +51,7 @@ public class Interfaccia {
         validaArray(maschera, "maschera");
         this.maschera = maschera;
     }
+
+    
     
 }
