@@ -6,9 +6,11 @@ public class Router {
 
     private String nome;
     private ArrayList<Interfaccia> router;
+    private Tabella tabella;
 
-    public Router(String nome) {
+    public Router(String nome, Tabella tabella) {
         this.nome = nome;
+        this.tabella = tabella;
         this.router = new ArrayList<Interfaccia>();
     }
 
@@ -26,21 +28,37 @@ public class Router {
         return router.get(posizione);
     }
 
-    public String setInterfaccia(int posizione, Interfaccia interfaccia) {
-        if (posizione < 0 || posizione >= router.size())
-            return "Posizione fuori dalla lista";
-        if (router.get(posizione) != null)
-            return "Posizione non disponibile";
-        router.set(posizione, interfaccia);
-        return "L'interfaccia è stata inserita correttamente";
+    public boolean addInterfaccia(Interfaccia interfaccia) {
+        if (interfaccia == null) {
+            return false;
+        }
+        router.add(interfaccia);
+        return true;
     }
 
-    public String removeInterfaccia(int posizione) {
-        if (router.get(posizione) == null) {
-            return "Nessuna interfaccia trovata";
+    public boolean removeInterfaccia(Interfaccia interfaccia) {
+        if (interfaccia == null) {
+            return false;
         }
-        router.remove(posizione);
-        return "Interfaccia rimossa correttamente";
+        return router.remove(interfaccia);
+    }
+
+    public Tabella getTabella() {
+        return tabella;
+    }
+
+    public void setTabella(Tabella tabella) {
+        this.tabella = tabella;
+    }
+
+    public String routePacket(int [] ip){
+
+         if (ip.length != 4) {
+            throw new IllegalArgumentException("Gli indirizzi devono essere rappresentati come array di 4 interi.");
+        }
+
+        return "";
+
     }
     
     
