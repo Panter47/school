@@ -51,13 +51,17 @@ public class Router {
         this.tabella = tabella;
     }
 
-    public String routePacket(int [] ip){
+    public routePacket(int [] ip){
 
          if (ip.length != 4) {
             throw new IllegalArgumentException("Gli indirizzi devono essere rappresentati come array di 4 interi.");
         }
 
-        return "";
+        ArrayList<Route> match = tabella.findRoute(ip);
+
+        System.out.println("la miglior interfaccia per l'instradamento è "+ match.get(0).getInterfaccia());
+
+        System.out.println();
 
     }
     
