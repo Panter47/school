@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="BorderPane" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RouterSimulatorController">
+   <top>
+      <VBox prefHeight="76.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onSalvaClick" text="Salva configurazione" />
+                        <MenuItem mnemonicParsing="false" onAction="#onCaricaClick" text="Carica configurazione" />
+                        <MenuItem mnemonicParsing="false" onAction="#onChiudiClick" text="esci" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <HBox minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btnRimuoviInterfaccia" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onRimuoviInterfacciaClick" prefHeight="51.0" prefWidth="156.0" text="Rimuovi Interfaccia" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btnAggiungiInterfaccia" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onAddInterfacciaClick" prefHeight="51.0" prefWidth="144.0" text="Aggiungi Interfaccia" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btnRimuoviRoute" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onRimuoviRouteClick" prefHeight="51.0" prefWidth="126.0" text="Rimuovi Route" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btnAggiungiRoute" alignment="CENTER" contentDisplay="RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onAddRouteClick" prefHeight="51.0" prefWidth="146.0" text="Aggiungi Route" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <TableView fx:id="tableRoute" prefHeight="250.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="colRete" prefWidth="75.0" text="Rete" />
+            <TableColumn fx:id="colCIDR" prefWidth="75.0" text="CIDR" />
+          <TableColumn fx:id="colNextHop" prefWidth="75.0" text="NextHop" />
+            <TableColumn fx:id="colInterfaccia" prefWidth="75.0" text="Interfaccia" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="IPInserito" maxHeight="1.7976931348623157E308" promptText="Inserire IP es. 192.168.1.20" HBox.hgrow="ALWAYS" />
+            <Button fx:id="btnInvio" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onInvioClick" text="Invio" />
+         </children>
+      </HBox>
+   </bottom>
+</fx:root>
