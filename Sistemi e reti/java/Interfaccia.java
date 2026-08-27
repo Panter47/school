@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Interfaccia {
     // è la classe dove verà inizializzata l'interfaccia
     private String nome;
@@ -20,7 +22,7 @@ public class Interfaccia {
             throw new IllegalArgumentException(nomeCampo + " deve avere esattamente 4 valori.");
         }
         for (int v : valori) {
-            if (v <= 0 || v >= 255) {
+            if (v < 0 || v > 255) {
                 throw new IllegalArgumentException(nomeCampo + " contiene un valore non valido: " + v + " (deve essere tra 0 e 255).");
             }
         }
@@ -50,6 +52,12 @@ public class Interfaccia {
     public void setMaschera(int[] maschera) {
         validaArray(maschera, "maschera");
         this.maschera = maschera;
+    }
+
+    @Override
+    public String toString() {
+        return "Interfaccia [nome=" + nome + ", indirizzo=" + Arrays.toString(indirizzo) + ", maschera="
+                + Arrays.toString(maschera) + "]";
     }
 
     

@@ -9,6 +9,11 @@ public class Tabella {
         this.routes = new ArrayList<Route>();
     }
 
+    public ArrayList<Route> getRoutes() {
+        return routes;
+    }
+
+
     /**
      * aggiunge una nuova route alla tabella e la ordina in base al CIDR in ordine decrescente
      * @param route la route da aggiungere alla tabella
@@ -63,5 +68,6 @@ public class Tabella {
         }
         return match;
     }
+    
     
 }
