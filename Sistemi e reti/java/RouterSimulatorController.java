@@ -62,6 +62,11 @@ public class RouterSimulatorController {
     private Tabella tabella;
     private ArrayList<Route> risultatoCorrente;
 
+    /**
+     * Inizializza il controller e imposta le proprietà delle colonne della tabella.
+     * Viene anche creato un nuovo router e una nuova tabella.
+     * Le route vengono aggiornate nella TableView.
+     */
     @FXML
     private void initialize() {
 
@@ -80,16 +85,31 @@ public class RouterSimulatorController {
         aggiornaTableView();
     }
 
+    /**
+     * Aggiorna la TableView con le route correnti nella tabella del router.
+     */
     private void aggiornaTableView() {
         ObservableList<Route> dati = FXCollections.observableArrayList(tabella.getRoutes());
         tableRoute.setItems(dati);
 
     }
 
+
+    /**
+     * Converte un array di interi rappresentante un indirizzo IP in una stringa.
+     * @param valori array di interi rappresentante l'indirizzo IP
+     * @return stringa rappresentante l'indirizzo IP
+     */
     private String ipToString(int[] valori) {
         return valori[0] + "." + valori[1] + "." + valori[2] + "." + valori[3];
     }
 
+
+    /**
+     * Parsa una stringa rappresentante un indirizzo IP in un array di interi.
+     * @param s stringa rappresentante l'indirizzo IP
+     * @return array di interi rappresentante l'indirizzo IP
+     */
     private int[] parseIp(String s) {
         String[] parti = s.split("\\.");
         if (parti.length != 4) 
@@ -102,12 +122,24 @@ public class RouterSimulatorController {
         return risultato;
     }
 
+
+    /**
+     * Mostra un messaggio di alert all'utente.
+     * @param testo il testo del messaggio da mostrare
+     */
     private void mostraMessaggio(String testo) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setContentText(testo);
         alert.showAndWait();
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per aggiungere una nuova interfaccia.
+     * Viene mostrata una finestra di dialogo per inserire i dati della nuova
+     * interfaccia. Se i dati sono validi, la nuova interfaccia viene aggiunta al router.
+     * @param event
+     */
     @FXML
     void onAddInterfacciaClick(ActionEvent event) {
 
@@ -169,6 +201,14 @@ public class RouterSimulatorController {
     
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per aggiungere una nuova route.
+     * Viene mostrata una finestra di dialogo per inserire i dati della nuova
+     * route. Se i dati sono validi, la nuova route viene aggiunta alla
+     * tabella del router e la TableView viene aggiornata.
+     * @param event
+     */
     @FXML
     void onAddRouteClick(ActionEvent event) {
     if (router.getRouter().isEmpty()) {
@@ -242,6 +282,13 @@ public class RouterSimulatorController {
 
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per caricare una configurazione da file.
+     * Viene mostrata una finestra di dialogo per selezionare il file da
+     * caricare. Se il file è valido, la configurazione del router viene aggiornata.
+     * @param event
+     */
     @FXML
     void onCaricaClick(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
@@ -267,11 +314,25 @@ public class RouterSimulatorController {
         aggiornaTableView();
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per chiudere l'applicazione.
+     * Viene chiusa l'applicazione.
+     * @param event
+     */
     @FXML
     void onChiudiClick(ActionEvent event) {
         System.exit(0);
     }
 
+    /**
+     * Gestisce l'evento di click sul pulsante per inviare un pacchetto.
+     * Viene passato l'indirizzo IP inserito dall'utente e viene cercata
+     * la route corrispondente nella tabella del router. Le route trovate 
+     * vengono evidenziate nella TableView.
+     * Se l'indirizzo IP non è valido, viene mostrato un messaggio di errore.
+     * @param event
+     */
     @FXML
     void onInvioClick(ActionEvent event) {
         int[] ip = parseIp(IPInserito.getText());
@@ -280,6 +341,14 @@ public class RouterSimulatorController {
         tableRoute.refresh();
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per rimuovere un'interfaccia.
+     * Viene mostrata una finestra di dialogo per selezionare l'interfaccia
+     * da rimuovere. Se l'interfaccia selezionata non è utilizzata da nessuna route,
+     * viene rimossa dal router. Altrimenti, viene mostrato un messaggio di errore.
+     * @param event
+     */
     @FXML
     void onRimuoviInterfacciaClick(ActionEvent event) {
     ArrayList<Interfaccia> disponibili = router.getRouter();
@@ -306,6 +375,12 @@ public class RouterSimulatorController {
 
     }
 
+
+    /**
+     * Verifica se l'interfaccia fornita è in uso da almeno una route nella tabella del router.
+     * @param iface l'interfaccia da verificare
+     * @return true se l'interfaccia è in uso, false altrimenti
+     */
     private boolean interfacciaInUso(Interfaccia iface) {
     for (Route r : tabella.getRoutes()) {
         if (r.getInterfaccia() == iface) {
@@ -315,6 +390,11 @@ public class RouterSimulatorController {
     return false;
 }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per rimuovere una route.
+     * @param event
+     */
     @FXML
     void onRimuoviRouteClick(ActionEvent event) {
 
@@ -328,6 +408,14 @@ public class RouterSimulatorController {
 
     }
 
+
+    /**
+     * Gestisce l'evento di click sul pulsante per salvare la configurazione del router su file.
+     * Viene mostrata una finestra di dialogo per selezionare il percorso e
+     * il nome del file in cui salvare la configurazione. Se il salvataggio ha successo,
+     * viene mostrato un messaggio di conferma, altrimenti un messaggio di errore.
+     * @param event
+     */
     @FXML
     void onSalvaClick(ActionEvent event) {
     
@@ -353,6 +441,13 @@ public class RouterSimulatorController {
 
     }
 
+
+    /**
+     * RigaRoute è una classe interna che estende TableRow<Route> per personalizzare
+     *  l'aspetto delle righe della TableView.
+     * Le righe vengono colorate in base al risultato della ricerca delle route.
+     * La prima route trovata viene colorata di verde, le altre di giallo.
+     */
     private class RigaRoute extends TableRow<Route> {
     @Override
     protected void updateItem(Route route, boolean empty) {

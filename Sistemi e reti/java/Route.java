@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Route {
-    //guardare claude per la struttura corretta d'applicare
+
     private int[] indirizzoDestinazione;
     private int CIDR;
     private int[] nextHop;

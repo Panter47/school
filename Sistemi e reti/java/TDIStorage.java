@@ -6,9 +6,6 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 
 public class TDIStorage {
-    /* classe che si occupa della persistenza: salva e carica la configurazione
-       del router (interfacce + tabella di instradamento) su/da file di testo */
-
     /**
      * salva su file la configurazione completa di un router (interfacce e route)
      * @param router il router di cui salvare la configurazione

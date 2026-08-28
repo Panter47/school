@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
 public class Router {
-    /*è la classe lista dove saranno visualizzate tutte le interfacce 
-    presenti all'interno del router */
 
     private String nome;
     private ArrayList<Interfaccia> router;
@@ -50,7 +48,10 @@ public class Router {
     public void setTabella(Tabella tabella) {
         this.tabella = tabella;
     }
-
+    /**
+     * Restituisce la lista delle interfacce del router
+     * @return
+     */
     public ArrayList<Interfaccia> getRouter() {
         return router;
     } 

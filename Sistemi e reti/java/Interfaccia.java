@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Interfaccia {
-    // è la classe dove verà inizializzata l'interfaccia
+    
     private String nome;
     private int[] indirizzo;
     private int[] maschera;
