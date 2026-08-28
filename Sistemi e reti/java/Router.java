@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Router {
     /*è la classe lista dove saranno visualizzate tutte le interfacce 
@@ -56,27 +55,12 @@ public class Router {
         return router;
     } 
 
-    public void  routePacket(int [] ip){
+    public ArrayList<Route> routePacket(int [] ip){
 
          if (ip.length != 4) {
             throw new IllegalArgumentException("Gli indirizzi devono essere rappresentati come array di 4 interi.");
         }
 
-        ArrayList<Route> match = tabella.findRoute(ip);
-
-        if(match.isEmpty()){
-            System.out.println("Nessuna route trovata per l'indirizzo " + Arrays.toString(ip));
-        }
-
-        System.out.println("Route scelta: " + match.get(0));
-
-        if (match.size() > 1){
-            System.out.println("Route di fallback disponibili:");
-            for (int i=1; i<match.size(); i++) {
-                System.out.println("  -  " + match.get(i));
-            }
-        }
-        else
-            System.out.println("Nessuna route di fallbak disponibile");
+        return tabella.findRoute(ip);
     }
 }
