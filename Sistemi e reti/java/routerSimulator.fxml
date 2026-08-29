@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RouterSimulatorController">
    <top>
       <VBox prefHeight="76.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -41,10 +40,10 @@
    <center>
       <TableView fx:id="tableRoute" prefHeight="250.0" prefWidth="600.0" BorderPane.alignment="CENTER">
         <columns>
-          <TableColumn fx:id="colRete" prefWidth="75.0" text="Rete" />
-            <TableColumn fx:id="colCIDR" prefWidth="75.0" text="CIDR" />
-          <TableColumn fx:id="colNextHop" prefWidth="75.0" text="NextHop" />
-            <TableColumn fx:id="colInterfaccia" prefWidth="75.0" text="Interfaccia" />
+          <TableColumn fx:id="colRete" maxWidth="1.7976931348623157E308" prefWidth="180.79998779296875" text="Rete" />
+            <TableColumn fx:id="colCIDR" maxWidth="1.7976931348623157E308" prefWidth="69.5999755859375" text="CIDR" />
+          <TableColumn fx:id="colNextHop" maxWidth="1.7976931348623157E308" prefWidth="198.4000244140625" text="NextHop" />
+            <TableColumn fx:id="colInterfaccia" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="155.199951171875" text="Interfaccia" />
         </columns>
       </TableView>
    </center>
