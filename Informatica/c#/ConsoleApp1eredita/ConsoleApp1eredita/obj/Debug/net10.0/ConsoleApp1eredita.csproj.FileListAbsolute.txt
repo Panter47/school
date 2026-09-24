@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\bin\Debug\net10.0\ConsoleApp1eredita.exe
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\bin\Debug\net10.0\ConsoleApp1eredita.deps.json
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\bin\Debug\net10.0\ConsoleApp1eredita.runtimeconfig.json
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\bin\Debug\net10.0\ConsoleApp1eredita.dll
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\bin\Debug\net10.0\ConsoleApp1eredita.pdb
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.AssemblyInfo.cs
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.sourcelink.json
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.dll
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\refint\ConsoleApp1eredita.dll
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.pdb
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleApp1eredita.genruntimeconfig.cache
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ref\ConsoleApp1eredita.dll
+C:\Users\PC\Documents\school\Informatica\c#\ConsoleApp1eredita\ConsoleApp1eredita\obj\Debug\net10.0\ConsoleA.A3398936.Up2Date
