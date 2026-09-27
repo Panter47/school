@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\Parco_Veicoli\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7623587A-9D32-4E87-ACA7-BFBE2FE9748D}|Parco_Veicoli\\Parco_Veicoli.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\parco_veicoli\\parco_veicoli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7623587A-9D32-4E87-ACA7-BFBE2FE9748D}|Parco_Veicoli\\Parco_Veicoli.csproj|solutionrelative:parco_veicoli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\Parco_Veicoli\\Parco_Veicoli\\Program.cs",
+              "RelativeDocumentMoniker": "Parco_Veicoli\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\Parco_Veicoli\\Parco_Veicoli\\Program.cs",
+              "RelativeToolTip": "Parco_Veicoli\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAA9wAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:33:14.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

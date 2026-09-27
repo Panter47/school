@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\bin\Debug\net10.0\Parco_Veicoli.exe
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\bin\Debug\net10.0\Parco_Veicoli.deps.json
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\bin\Debug\net10.0\Parco_Veicoli.runtimeconfig.json
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\bin\Debug\net10.0\Parco_Veicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\bin\Debug\net10.0\Parco_Veicoli.pdb
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.AssemblyInfo.cs
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.sourcelink.json
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\refint\Parco_Veicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.pdb
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Veicoli.genruntimeconfig.cache
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\ref\Parco_Veicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\Parco_Veicoli\Parco_Veicoli\obj\Debug\net10.0\Parco_Ve.9E260FE0.Up2Date
