@@ -1,4 +1,6 @@
-﻿namespace WinFormsLibraryScuola
+﻿using System.ComponentModel;
+
+namespace WinFormsLibraryScuola
 {
     public class Studente
     {
@@ -25,8 +27,8 @@
         public DateTime DataNascita { get => dataNascita; set => dataNascita = value; }
         public List<int> Voti { get => voti; set => voti = value; }
 
-        public static List<Studente> GetStudenti()  {
-            return new List<Studente>{
+        public static BindingList<Studente> GetStudenti()  {
+            return new BindingList<Studente>{
                 new Studente(12,"pippo","pippo",DateTime.Parse("2008-04-12"),new List<int>{10, 6, 4}),
                 new Studente{Matricola=11, Cognome="pluto", Nome="pluto", DataNascita=DateTime.Parse("2011-01-01"), Voti=new List<int>{10, 6, 4}},
                 new Studente{Matricola=11, Cognome="pluto", Nome="pluto", DataNascita=DateTime.Parse("2011-01-01"), Voti=new List<int>{10, 6, 4}}

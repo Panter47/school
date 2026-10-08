@@ -31,9 +31,13 @@
             ButtonCaricaStudenti = new Button();
             dataGridViewStudenti = new DataGridView();
             Carica = new DataGridViewButtonColumn();
-            dataGridViewVoti = new DataGridView();
+            buttonCancella = new Button();
+            textBoxMatricola = new TextBox();
+            textBoxnome = new TextBox();
+            textBoxCognome = new TextBox();
+            textBoxDataNascita = new TextBox();
+            buttoninserisciStudente = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewStudenti).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewVoti).BeginInit();
             SuspendLayout();
             // 
             // ButtonCaricaStudenti
@@ -66,28 +70,72 @@
             Carica.UseColumnTextForButtonValue = true;
             Carica.Width = 125;
             // 
-            // dataGridViewVoti
+            // buttonCancella
             // 
-            dataGridViewVoti.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewVoti.Location = new Point(216, 231);
-            dataGridViewVoti.Name = "dataGridViewVoti";
-            dataGridViewVoti.RowHeadersWidth = 51;
-            dataGridViewVoti.Size = new Size(300, 188);
-            dataGridViewVoti.TabIndex = 2;
+            buttonCancella.Location = new Point(12, 72);
+            buttonCancella.Name = "buttonCancella";
+            buttonCancella.Size = new Size(188, 29);
+            buttonCancella.TabIndex = 3;
+            buttonCancella.Text = "Cancella";
+            buttonCancella.UseVisualStyleBackColor = true;
+            buttonCancella.Click += buttonCancella_Click;
+            // 
+            // textBoxMatricola
+            // 
+            textBoxMatricola.Location = new Point(23, 250);
+            textBoxMatricola.Name = "textBoxMatricola";
+            textBoxMatricola.Size = new Size(125, 27);
+            textBoxMatricola.TabIndex = 4;
+            // 
+            // textBoxnome
+            // 
+            textBoxnome.Location = new Point(169, 250);
+            textBoxnome.Name = "textBoxnome";
+            textBoxnome.Size = new Size(125, 27);
+            textBoxnome.TabIndex = 5;
+            // 
+            // textBoxCognome
+            // 
+            textBoxCognome.Location = new Point(315, 251);
+            textBoxCognome.Name = "textBoxCognome";
+            textBoxCognome.Size = new Size(125, 27);
+            textBoxCognome.TabIndex = 6;
+            // 
+            // textBoxDataNascita
+            // 
+            textBoxDataNascita.Location = new Point(457, 251);
+            textBoxDataNascita.Name = "textBoxDataNascita";
+            textBoxDataNascita.Size = new Size(125, 27);
+            textBoxDataNascita.TabIndex = 7;
+            // 
+            // buttoninserisciStudente
+            // 
+            buttoninserisciStudente.Location = new Point(658, 250);
+            buttoninserisciStudente.Name = "buttoninserisciStudente";
+            buttoninserisciStudente.Size = new Size(94, 29);
+            buttoninserisciStudente.TabIndex = 8;
+            buttoninserisciStudente.Text = "inserisci";
+            buttoninserisciStudente.UseVisualStyleBackColor = true;
+            buttoninserisciStudente.Click += buttoninserisciStudente_Click;
             // 
             // FormInizio
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(dataGridViewVoti);
+            Controls.Add(buttoninserisciStudente);
+            Controls.Add(textBoxDataNascita);
+            Controls.Add(textBoxCognome);
+            Controls.Add(textBoxnome);
+            Controls.Add(textBoxMatricola);
+            Controls.Add(buttonCancella);
             Controls.Add(dataGridViewStudenti);
             Controls.Add(ButtonCaricaStudenti);
             Name = "FormInizio";
             Text = "Scuola";
             ((System.ComponentModel.ISupportInitialize)dataGridViewStudenti).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewVoti).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -95,6 +143,11 @@
         private Button ButtonCaricaStudenti;
         private DataGridView dataGridViewStudenti;
         private DataGridViewButtonColumn Carica;
-        private DataGridView dataGridViewVoti;
+        private Button buttonCancella;
+        private TextBox textBoxMatricola;
+        private TextBox textBoxnome;
+        private TextBox textBoxCognome;
+        private TextBox textBoxDataNascita;
+        private Button buttoninserisciStudente;
     }
 }
