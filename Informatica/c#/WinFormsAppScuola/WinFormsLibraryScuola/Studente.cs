@@ -31,7 +31,7 @@ namespace WinFormsLibraryScuola
             return new BindingList<Studente>{
                 new Studente(12,"pippo","pippo",DateTime.Parse("2008-04-12"),new List<int>{10, 6, 4}),
                 new Studente{Matricola=11, Cognome="pluto", Nome="pluto", DataNascita=DateTime.Parse("2011-01-01"), Voti=new List<int>{10, 6, 4}},
-                new Studente{Matricola=11, Cognome="pluto", Nome="pluto", DataNascita=DateTime.Parse("2011-01-01"), Voti=new List<int>{10, 6, 4}}
+                new Studente{Matricola=13, Cognome="pluto", Nome="pluto", DataNascita=DateTime.Parse("2011-01-01"), Voti=new List<int>{10, 6, 4}}
             };
         }
     }

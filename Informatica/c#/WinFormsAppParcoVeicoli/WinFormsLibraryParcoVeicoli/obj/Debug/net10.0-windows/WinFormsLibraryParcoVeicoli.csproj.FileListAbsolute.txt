@@ -1,0 +1,13 @@
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\bin\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.deps.json
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\bin\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\bin\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.pdb
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.AssemblyInfo.cs
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.sourcelink.json
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\refint\WinFormsLibraryParcoVeicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinFormsLibraryParcoVeicoli.pdb
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\ref\WinFormsLibraryParcoVeicoli.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppParcoVeicoli\WinFormsLibraryParcoVeicoli\obj\Debug\net10.0-windows\WinForms.C81FD7A2.Up2Date

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WinFormsAppParcoVeicoli/1.0.0": {
+        "dependencies": {
+          "WinFormsLibraryParcoVeicoli": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsAppParcoVeicoli.dll": {}
+        }
+      },
+      "WinFormsLibraryParcoVeicoli/1.0.0": {
+        "runtime": {
+          "WinFormsLibraryParcoVeicoli.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppParcoVeicoli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsLibraryParcoVeicoli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
