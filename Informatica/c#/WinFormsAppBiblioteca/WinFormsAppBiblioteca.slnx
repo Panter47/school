@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WinFormsAppBiblioteca/WinFormsAppBiblioteca.csproj" />
+  <Project Path="WinFormsLibraryBiblioteca/WinFormsLibraryBiblioteca.csproj" />
+</Solution>

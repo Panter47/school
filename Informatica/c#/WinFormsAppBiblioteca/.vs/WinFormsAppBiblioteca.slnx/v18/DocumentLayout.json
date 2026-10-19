@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A754456C-1E9C-407E-B4EB-58828E45D1FC}|WinFormsAppBiblioteca\\WinFormsAppBiblioteca.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappbiblioteca\\winformsappbiblioteca\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A754456C-1E9C-407E-B4EB-58828E45D1FC}|WinFormsAppBiblioteca\\WinFormsAppBiblioteca.csproj|solutionrelative:winformsappbiblioteca\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A754456C-1E9C-407E-B4EB-58828E45D1FC}|WinFormsAppBiblioteca\\WinFormsAppBiblioteca.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappbiblioteca\\winformsappbiblioteca\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A754456C-1E9C-407E-B4EB-58828E45D1FC}|WinFormsAppBiblioteca\\WinFormsAppBiblioteca.csproj|solutionrelative:winformsappbiblioteca\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9AA41-E61A-4189-BD56-D276C1CCD680}|WinFormsLibraryBiblioteca\\WinFormsLibraryBiblioteca.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappbiblioteca\\winformslibrarybiblioteca\\gestionebiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9AA41-E61A-4189-BD56-D276C1CCD680}|WinFormsLibraryBiblioteca\\WinFormsLibraryBiblioteca.csproj|solutionrelative:winformslibrarybiblioteca\\gestionebiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormInizio.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsAppBiblioteca\\FormInizio.cs",
+              "RelativeDocumentMoniker": "WinFormsAppBiblioteca\\FormInizio.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsAppBiblioteca\\FormInizio.cs [Progettazione]",
+              "RelativeToolTip": "WinFormsAppBiblioteca\\FormInizio.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T08:36:51.823Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormInizio.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsAppBiblioteca\\FormInizio.cs",
+              "RelativeDocumentMoniker": "WinFormsAppBiblioteca\\FormInizio.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsAppBiblioteca\\FormInizio.cs",
+              "RelativeToolTip": "WinFormsAppBiblioteca\\FormInizio.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T08:32:08.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestioneBiblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsLibraryBiblioteca\\GestioneBiblioteca.cs",
+              "RelativeDocumentMoniker": "WinFormsLibraryBiblioteca\\GestioneBiblioteca.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppBiblioteca\\WinFormsLibraryBiblioteca\\GestioneBiblioteca.cs",
+              "RelativeToolTip": "WinFormsLibraryBiblioteca\\GestioneBiblioteca.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswGQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:23:38.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
