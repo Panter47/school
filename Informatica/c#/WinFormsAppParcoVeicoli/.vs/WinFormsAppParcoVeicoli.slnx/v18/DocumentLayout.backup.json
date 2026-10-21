@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7C9BD047-6420-97A0-86F2-1E026EB60B50}|WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli.csproj|solutionrelative:winformsappparcoveicoli\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C9BD047-6420-97A0-86F2-1E026EB60B50}|WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappparcoveicoli\\winformsappparcoveicoli\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7C9BD047-6420-97A0-86F2-1E026EB60B50}|WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli.csproj|C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\winformsappparcoveicoli\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7C9BD047-6420-97A0-86F2-1E026EB60B50}|WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli.csproj|solutionrelative:winformsappparcoveicoli\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -42,20 +42,19 @@
               "RelativeToolTip": "WinFormsAppParcoVeicoli\\FormInizio.Designer.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T20:31:19.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T20:31:19.272Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormInizio.cs [Progettazione]",
+              "Title": "FormInizio.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs",
               "RelativeDocumentMoniker": "WinFormsAppParcoVeicoli\\FormInizio.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs [Progettazione]*",
-              "RelativeToolTip": "WinFormsAppParcoVeicoli\\FormInizio.cs [Progettazione]*",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs [Design]",
+              "RelativeToolTip": "WinFormsAppParcoVeicoli\\FormInizio.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T06:30:24.251Z",
-              "EditorCaption": " [Progettazione]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -63,8 +62,8 @@
               "Title": "FormInizio.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs",
               "RelativeDocumentMoniker": "WinFormsAppParcoVeicoli\\FormInizio.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs*",
-              "RelativeToolTip": "WinFormsAppParcoVeicoli\\FormInizio.cs*",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppParcoVeicoli\\WinFormsAppParcoVeicoli\\FormInizio.cs",
+              "RelativeToolTip": "WinFormsAppParcoVeicoli\\FormInizio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-11T09:36:09.633Z",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "WinFormsLibraryParcoVeicoli\\ParcoVeicolo.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAuwIoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T09:33:24.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T09:33:24.562Z"
             },
             {
               "$type": "Document",
