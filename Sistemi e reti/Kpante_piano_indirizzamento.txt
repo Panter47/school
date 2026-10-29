@@ -1,0 +1,58 @@
+172.20.0.0/20 rete  /22
+255.255.240.0 mask 
+
+rete1 		/22
+subnetid	172.20.0.0
+broadcast	172.20.3.255
+first host	172.20.0.1
+last host	172.20.3.254
+num host	1022
+
+rete2		/22
+subnetid	172.20.4.0
+broadcast	172.20.7.255
+first host	172.20.4.1
+last host	172.20.7.254
+num host	1022
+
+rete3		/22
+subnetid	172.20.8.0
+broadcast	172.20.11.255
+first host	172.20.8.1
+last host	172.20.11.254
+num host	1022
+
+rete4		/22
+subnetid	172.20.12.0
+broadcast	172.20.15.255
+first host	172.20.12.1
+last host	172.20.15.254
+num host	1022
+
+10.0.0.0/8 rete
+
+rete800 host 10.0.0.0/22
+subnetid	10.0.0.0
+broadcast 	10.0.3.255
+first host	10.0.0.1
+last host	10.0.3.254
+num host 	1022
+spreco		222 host
+
+rete300 host 10.0.4.0/23
+subnetid	10.0.4.0
+broadcast	10.0.5.255
+first host	10.0.4.1
+last host	10.0.5.254
+num host 	510
+spreco 		210 host
+
+rete100 host 10.0.6.0/25
+subnetid	10.0.6.0
+broadcast 	10.0.6.127
+first host 	10.0.6.1
+last host 	10.0.6.126
+num host 	126
+spreco 		26 host
+
+
