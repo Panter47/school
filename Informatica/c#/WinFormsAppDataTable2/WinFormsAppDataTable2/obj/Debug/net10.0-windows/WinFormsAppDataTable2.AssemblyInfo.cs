@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsAppDataTable2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1d8de544c3e2b5fa0252f888d764a1f17ac4434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43a7a48bd888da06eaad87ce9642db25f3e43be")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsAppDataTable2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsAppDataTable2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

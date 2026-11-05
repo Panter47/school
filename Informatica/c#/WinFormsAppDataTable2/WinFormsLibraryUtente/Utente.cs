@@ -63,6 +63,9 @@ namespace WinFormsLibraryUtente
 
     public class Dati
     {
+        List<Anagrafica> listaAnagrafiche = Anagrafica.GetSampleData();
+        List<Utente> listaUtenti = Utente.GetSampleData();
+
         public DataTable GetAnagrafica()
         {
             DataTable dt = new DataTable();
@@ -73,7 +76,7 @@ namespace WinFormsLibraryUtente
                 new DataColumn("Nome", typeof(string))
             });
 
-            foreach (Anagrafica a in Anagrafica.GetSampleData())
+            foreach (Anagrafica a in listaAnagrafiche)
             {
                 dt.Rows.Add(a.Id, a.Cognome, a.Nome);
             }
@@ -91,7 +94,7 @@ namespace WinFormsLibraryUtente
                 new DataColumn("Email", typeof(string))
             });
 
-            foreach (Utente u in Utente.GetSampleData())
+            foreach (Utente u in listaUtenti)
             {
                 dt.Rows.Add(u.Id, u.User, u.Password, u.Email);
             }
@@ -111,9 +114,6 @@ namespace WinFormsLibraryUtente
                 new DataColumn("Email", typeof(string))
             });
 
-            List<Anagrafica> listaAnagrafiche = Anagrafica.GetSampleData();
-            List<Utente> listaUtenti = Utente.GetSampleData();
-
             foreach (Anagrafica a in listaAnagrafiche)
             {
                 foreach (Utente u in listaUtenti)
@@ -127,6 +127,60 @@ namespace WinFormsLibraryUtente
             }
 
             return dt;
+        }
+
+        public bool UserEsiste(string user)
+        {
+            foreach (Utente u in listaUtenti)
+            {
+                if (u.User.ToLower() == user.ToLower())
+                    return true;
+            }
+            return false;
+        }
+
+        private bool IdEsiste(int id)
+        {
+            foreach (Anagrafica a in listaAnagrafiche)
+            {
+                if (a.Id == id)
+                    return true;
+            }
+            return false;
+        }
+
+        private int NuovoId()
+        {
+            Random random = new Random();
+            int id = random.Next(100000, 1000000);
+
+            while (IdEsiste(id))
+                id = random.Next(100000, 1000000);
+
+            return id;
+        }
+
+        public bool InserisciUtente(string cognome, string nome, string user, string password, string email)
+        {
+            if (UserEsiste(user))
+                return false;
+
+            int id = NuovoId();
+            listaAnagrafiche.Add(new Anagrafica(id, cognome, nome));
+            listaUtenti.Add(new Utente(id, user, password, email));
+            return true;
+        }
+
+        public DataRow Login(string user, string password)
+        {
+            DataTable dt = GetUtentiCompleti();
+
+            foreach (DataRow riga in dt.Rows)
+            {
+                if (riga["User"].ToString() == user && riga["Password"].ToString() == password)
+                    return riga;
+            }
+            return null;
         }
     }
 }
