@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WinFormsAppDataTable3/1.0.0": {
+        "dependencies": {
+          "WinFormsLibraryOrdine": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsAppDataTable3.dll": {}
+        }
+      },
+      "WinFormsLibraryOrdine/1.0.0": {
+        "runtime": {
+          "WinFormsLibraryOrdine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppDataTable3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsLibraryOrdine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -47,7 +47,7 @@
             // 
             // dataGridViewUtenti
             // 
-            dataGridViewUtenti.BackgroundColor = Color.Yellow;
+            dataGridViewUtenti.BackgroundColor = Color.GhostWhite;
             dataGridViewUtenti.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewUtenti.Location = new Point(73, 20);
             dataGridViewUtenti.Margin = new Padding(3, 4, 3, 4);
@@ -61,7 +61,7 @@
             labelCognome.AutoSize = true;
             labelCognome.Location = new Point(73, 243);
             labelCognome.Name = "labelCognome";
-            labelCognome.Size = new Size(70, 20);
+            labelCognome.Size = new Size(74, 20);
             labelCognome.TabIndex = 1;
             labelCognome.Text = "Cognome";
             // 
@@ -70,7 +70,7 @@
             labelNome.AutoSize = true;
             labelNome.Location = new Point(73, 278);
             labelNome.Name = "labelNome";
-            labelNome.Size = new Size(23, 20);
+            labelNome.Size = new Size(50, 20);
             labelNome.TabIndex = 2;
             labelNome.Text = "Nome";
             // 

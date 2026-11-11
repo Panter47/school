@@ -1,0 +1,13 @@
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\bin\Debug\net10.0-windows\WinFormsLibraryOrdine.deps.json
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\bin\Debug\net10.0-windows\WinFormsLibraryOrdine.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\bin\Debug\net10.0-windows\WinFormsLibraryOrdine.pdb
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.AssemblyInfo.cs
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.sourcelink.json
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\refint\WinFormsLibraryOrdine.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinFormsLibraryOrdine.pdb
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\ref\WinFormsLibraryOrdine.dll
+C:\Users\PC\Documents\school\Informatica\c#\WinFormsAppDataTable3\WinFormsLibraryOrdine\obj\Debug\net10.0-windows\WinForms.45D9F826.Up2Date

@@ -12,26 +12,18 @@ namespace WinFormsAppDataTable2
             InitializeComponent();
         }
 
-        /// <summary>
-        /// all'avvio mostra nella griglia i dati di GetUtentiCompleti
-        /// </summary>
+
         private void FormInizio_Load(object sender, EventArgs e)
         {
             dataGridViewUtenti.DataSource = dati.GetUtentiCompleti();
         }
 
-        /// <summary>
-        /// apre la form di login (stessa istanza di Dati, così vede anche i nuovi utenti)
-        /// </summary>
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             WindowFormLogin login = new WindowFormLogin(dati);
             login.ShowDialog();
         }
 
-        /// <summary>
-        /// inserisce una nuova anagrafica e un nuovo utente, con verifica omonimia dello user
-        /// </summary>
         private void buttonInserisci_Click(object sender, EventArgs e)
         {
             if (textBoxCognome.Text.Trim() == "" || textBoxNome.Text.Trim() == "" ||

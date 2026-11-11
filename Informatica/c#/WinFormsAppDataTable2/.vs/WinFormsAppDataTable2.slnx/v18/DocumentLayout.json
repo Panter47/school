@@ -15,20 +15,20 @@
       "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\windowformlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\windowformlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\windowformlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\forminizio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\forminizio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\windowformlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\windowformlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\forminizio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|c:\\users\\pc\\documents\\school\\informatica\\c#\\winformsappdatatable2\\winformsappdatatable2\\forminizio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3964A442-6EC3-CB52-7890-42F017950C5D}|WinFormsAppDataTable2\\WinFormsAppDataTable2.csproj|solutionrelative:winformsappdatatable2\\forminizio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -49,19 +49,8 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\Windowformlogin.cs [Progettazione]",
               "RelativeToolTip": "WinFormsAppDataTable2\\Windowformlogin.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T15:03:28.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormInizio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsAppDataTable2\\FormInizio.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.Designer.cs",
-              "RelativeToolTip": "WinFormsAppDataTable2\\FormInizio.Designer.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAswNkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T15:00:21.027Z"
+              "WhenOpened": "2026-11-04T15:03:28.421Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
@@ -72,19 +61,21 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.cs [Progettazione]",
               "RelativeToolTip": "WinFormsAppDataTable2\\FormInizio.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T14:49:47.006Z"
+              "WhenOpened": "2026-11-04T14:49:47.006Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "FormInizio.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.cs",
               "RelativeDocumentMoniker": "WinFormsAppDataTable2\\FormInizio.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.cs",
               "RelativeToolTip": "WinFormsAppDataTable2\\FormInizio.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T14:49:27.725Z"
+              "WhenOpened": "2026-11-04T14:49:27.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +85,7 @@
               "RelativeDocumentMoniker": "WinFormsLibraryUtente\\Utente.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsLibraryUtente\\Utente.cs",
               "RelativeToolTip": "WinFormsLibraryUtente\\Utente.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwK4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-29T10:49:52.705Z",
               "EditorCaption": ""
@@ -107,13 +98,27 @@
               "RelativeDocumentMoniker": "WinFormsAppDataTable2\\Windowformlogin.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\Windowformlogin.cs",
               "RelativeToolTip": "WinFormsAppDataTable2\\Windowformlogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T15:03:36.378Z"
+              "WhenOpened": "2026-11-04T15:03:36.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "FormInizio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsAppDataTable2\\FormInizio.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\FormInizio.Designer.cs",
+              "RelativeToolTip": "WinFormsAppDataTable2\\FormInizio.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswNkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T15:00:21.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Windowformlogin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\school\\Informatica\\c#\\WinFormsAppDataTable2\\WinFormsAppDataTable2\\Windowformlogin.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsAppDataTable2\\Windowformlogin.Designer.cs",
@@ -121,7 +126,8 @@
               "RelativeToolTip": "WinFormsAppDataTable2\\Windowformlogin.Designer.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAswHkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T15:03:32.803Z"
+              "WhenOpened": "2026-11-04T15:03:32.803Z",
+              "EditorCaption": ""
             }
           ]
         }
